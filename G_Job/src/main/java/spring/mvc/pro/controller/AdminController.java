@@ -16,7 +16,7 @@ public class AdminController {
 
 	@Autowired
 	AmemberServiceImpl amemberService;
-	//배고파 1.081111112222222 나도배고파 12121212121 
+	//배고파 
 	//사용자 로그인, 로그아웃처리 i love you 1.08
 	@RequestMapping(value="Amain")
 	public String loginPro(HttpServletRequest req, Model model) {
