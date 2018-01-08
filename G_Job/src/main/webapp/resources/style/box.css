@@ -1,0 +1,551 @@
+
+/* 연그레이라운딩 */
+.box01_02,.box01_04,.box01_05,.box01_07,.box_gr,.box01{background-color:#f5f5f5;}
+.box01_01{background:url(/images/box/box01_01.gif) no-repeat;width:5px;height:5px}
+.box01_03{background:url(/images/box/box01_02.gif) no-repeat;width:5px;height:5px}
+.box01_06{background:url(/images/box/box01_03.gif) no-repeat;width:5px;height:5px}
+.box01_08{background:url(/images/box/box01_04.gif) no-repeat;width:5px;height:5px}
+
+/* 화이트라운딩 */
+.box06_02,.box06_04,.box06_05,.box06_07,.box_wht,.box06{background-color:#ffffff;}
+.box06_01{background:url(/images/box/box06_01.gif) no-repeat;width:5px;height:5px}
+.box06_03{background:url(/images/box/box06_02.gif) no-repeat;width:5px;height:5px}
+.box06_06{background:url(/images/box/box06_03.gif) no-repeat;width:5px;height:5px}
+.box06_08{background:url(/images/box/box06_04.gif) no-repeat;width:5px;height:5px}
+
+
+/* border:1px 그레이 2px 화이트  bg:연그레이 */
+.box02_01{background:url(/images/box/box02_01.gif) no-repeat ;width:5px;height:5px}
+.box02_02{background:url(/images/box/box02_02.gif) repeat-x ;height:5px}
+.box02_03{background:url(/images/box/box02_03.gif) no-repeat ;width:5px;height:5px}
+.box02_04{background:url(/images/box/box02_04.gif) repeat-y;width:5px;}
+.box02_05{background:url(/images/box/box02_05.gif) repeat-y;width:5px;}
+.box02_06{background:url(/images/box/box02_06.gif) no-repeat ;width:5px;height:5px}
+.box02_07{background:url(/images/box/box02_07.gif) repeat-x ;height:5px}
+.box02_08{background:url(/images/box/box02_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 그레이  bg:화이트 */
+.box03_01{background:url(/images/box/box03_01.gif) no-repeat ;width:5px;height:5px}
+.box03_02{background:url(/images/box/box03_02.gif) repeat-x ;height:5px}
+.box03_03{background:url(/images/box/box03_03.gif) no-repeat ;width:5px;height:5px}
+.box03_04{background:url(/images/box/box03_04.gif) repeat-y;width:5px;}
+.box03_05{background:url(/images/box/box03_05.gif) repeat-y;width:5px;}
+.box03_06{background:url(/images/box/box03_06.gif) no-repeat ;width:5px;height:5px}
+.box03_07{background:url(/images/box/box03_07.gif) repeat-x ;height:5px}
+.box03_08{background:url(/images/box/box03_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 그레이  bg:화이트 */
+.box04_01{background:url(/images/box/box04_01.gif) no-repeat ;width:5px;height:5px}
+.box04_02{background:url(/images/box/box04_02.gif) repeat-x ;height:5px}
+.box04_03{background:url(/images/box/box04_03.gif) no-repeat ;width:5px;height:5px}
+.box04_04{background:url(/images/box/box04_04.gif) repeat-y;width:5px;}
+.box04_05{background:url(/images/box/box04_05.gif) repeat-y;width:5px;}
+.box04_06{background:url(/images/box/box04_06.gif) no-repeat ;width:5px;height:5px}
+.box04_07{background:url(/images/box/box04_07.gif) repeat-x ;height:5px}
+.box04_08{background:url(/images/box/box04_08.gif) no-repeat ;width:5px;height:5px}
+
+
+/* border:2px 라이트그레이  bg:화이트 */
+.box05_01{background:url(/images/box/box05_01.gif) no-repeat ;width:5px;height:5px}
+.box05_02{background:url(/images/box/box05_02.gif) repeat-x ;height:5px}
+.box05_03{background:url(/images/box/box05_03.gif) no-repeat ;width:5px;height:5px}
+.box05_04{background:url(/images/box/box05_04.gif) repeat-y;width:5px;}
+.box05_05{background:url(/images/box/box05_05.gif) repeat-y;width:5px;}
+.box05_06{background:url(/images/box/box05_06.gif) no-repeat ;width:5px;height:5px}
+.box05_07{background:url(/images/box/box05_07.gif) repeat-x ;height:5px}
+.box05_08{background:url(/images/box/box05_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 그레이  bg:연그레이 */
+.box19_01{background:url(/images/box/box19_01.gif) no-repeat ;width:5px;height:5px}
+.box19_02{background:url(/images/box/box19_02.gif) repeat-x ;height:5px}
+.box19_03{background:url(/images/box/box19_03.gif) no-repeat ;width:5px;height:5px}
+.box19_04{background:url(/images/box/box19_04.gif) repeat-y;width:5px;}
+.box19_05{background:url(/images/box/box19_05.gif) repeat-y;width:5px;}
+.box19_06{background:url(/images/box/box19_06.gif) no-repeat ;width:5px;height:5px}
+.box19_07{background:url(/images/box/box19_07.gif) repeat-x ;height:5px}
+.box19_08{background:url(/images/box/box19_08.gif) no-repeat ;width:5px;height:5px}
+
+/* 더블border:1px 그레이  bg:화이트 */
+.box20_01{background:url(/images/box/box20_01.gif) no-repeat ;width:5px;height:5px}
+.box20_02{background:url(/images/box/box20_02.gif) repeat-x ;height:5px}
+.box20_03{background:url(/images/box/box20_03.gif) no-repeat ;width:5px;height:5px}
+.box20_04{background:url(/images/box/box20_04.gif) repeat-y;width:5px;}
+.box20_05{background:url(/images/box/box20_05.gif) repeat-y;width:5px;}
+.box20_06{background:url(/images/box/box20_06.gif) no-repeat ;width:5px;height:5px}
+.box20_07{background:url(/images/box/box20_07.gif) repeat-x ;height:5px}
+.box20_08{background:url(/images/box/box20_08.gif) no-repeat ;width:5px;height:5px}
+
+/* 더블border:1px 그레이 쉐도우  bg:화이트 */
+.box21_01{background:url(/images/box/box21_01.gif) no-repeat ;width:8px;height:8px}
+.box21_02{background:url(/images/box/box21_02.gif) repeat-x ;height:8px}
+.box21_03{background:url(/images/box/box21_03.gif) no-repeat ;width:8px;height:8px}
+.box21_04{background:url(/images/box/box21_04.gif) repeat-y;width:8px;}
+.box21_05{background:url(/images/box/box21_05.gif) repeat-y;width:8px;}
+.box21_06{background:url(/images/box/box21_06.gif) no-repeat ;width:8px;height:8px}
+.box21_07{background:url(/images/box/box21_07.gif) repeat-x ;height:8px}
+.box21_08{background:url(/images/box/box21_08.gif) no-repeat ;width:8px;height:8px}
+
+/* 블루라운딩 */
+.box077_02,.box077_04,.box077_05,.box077_07,.box077{background-color:#dfebf7;}
+.box077_01{background:url(/images/box/box077_01.gif) no-repeat;width:5px;height:5px}
+.box077_03{background:url(/images/box/box077_02.gif) no-repeat;width:5px;height:5px}
+.box077_06{background:url(/images/box/box077_03.gif) no-repeat;width:5px;height:5px}
+.box077_08{background:url(/images/box/box077_04.gif) no-repeat;width:5px;height:5px}
+
+/* border:1px 블루 border:4px 연블루  bg: */
+.box0717_01{background:url(/images/box/box0717_01.gif) no-repeat ;width:5px;height:5px}
+.box0717_02{background:url(/images/box/box0717_02.gif) repeat-x ;height:5px}
+.box0717_03{background:url(/images/box/box0717_03.gif) no-repeat ;width:5px;height:5px}
+.box0717_04{background:url(/images/box/box0717_04.gif) repeat-y;width:5px;}
+.box0717_05{background:url(/images/box/box0717_05.gif) repeat-y;width:5px;}
+.box0717_06{background:url(/images/box/box0717_06.gif) no-repeat ;width:5px;height:5px}
+.box0717_07{background:url(/images/box/box0717_07.gif) repeat-x ;height:5px}
+.box0717_08{background:url(/images/box/box0717_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 블루  bg:화이트 */
+.box071_01{background:url(/images/box/box071_01.gif) no-repeat ;width:5px;height:5px}
+.box071_02{background:url(/images/box/box071_02.gif) repeat-x ;height:5px}
+.box071_03{background:url(/images/box/box071_03.gif) no-repeat ;width:5px;height:5px}
+.box071_04{background:url(/images/box/box071_04.gif) repeat-y;width:5px;}
+.box071_05{background:url(/images/box/box071_05.gif) repeat-y;width:5px;}
+.box071_06{background:url(/images/box/box071_06.gif) no-repeat ;width:5px;height:5px}
+.box071_07{background:url(/images/box/box071_07.gif) repeat-x ;height:5px}
+.box071_08{background:url(/images/box/box071_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 블루  bg:화이트 */
+.box07_01{background:url(/images/box/box07_01.gif) no-repeat ;width:5px;height:5px}
+.box07_02{background:url(/images/box/box07_02.gif) repeat-x ;height:5px}
+.box07_03{background:url(/images/box/box07_03.gif) no-repeat ;width:5px;height:5px} 
+.box07_04{background:url(/images/box/box07_04.gif) repeat-y;width:5px;}
+.box07_05{background:url(/images/box/box07_05.gif) repeat-y;width:5px;}
+.box07_06{background:url(/images/box/box07_06.gif) no-repeat ;width:5px;height:5px}
+.box07_07{background:url(/images/box/box07_07.gif) repeat-x ;height:5px}
+.box07_08{background:url(/images/box/box07_08.gif) no-repeat ;width:5px;height:5px}
+
+
+ 
+/* border:2px 블루  bg:화이트 */
+.bl07_01{background:url(/images/box/box07_01.gif) no-repeat ;width:5px;height:5px}
+.bl07_02{background:url(/images/box/box07_02.gif) repeat-x ;height:5px}
+.bl07_03{background:url(/images/box/box07_03.gif) no-repeat ;width:5px;height:5px}
+.bl07_04{background:url(/images/box/box07_04.gif) repeat-y;width:5px;}
+.bl07_05{background:url(/images/box/box07_05.gif) repeat-y;width:5px;}
+.bl07_06{background:url(/images/box/box07_06.gif) no-repeat ;width:5px;height:5px}
+.bl07_07{background:url(/images/box/box07_07.gif) repeat-x ;height:5px}
+.bl07_08{background:url(/images/box/box07_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 퍼플  bg:화이트 */
+.pp07_01{background:url(/images/box/box08_01.gif) no-repeat ;width:5px;height:5px}
+.pp07_02{background:url(/images/box/box08_02.gif) repeat-x ;height:5px}
+.pp07_03{background:url(/images/box/box08_03.gif) no-repeat ;width:5px;height:5px}
+.pp07_04{background:url(/images/box/box08_04.gif) repeat-y;width:5px;}
+.pp07_05{background:url(/images/box/box08_05.gif) repeat-y;width:5px;}
+.pp07_06{background:url(/images/box/box08_06.gif) no-repeat ;width:5px;height:5px}
+.pp07_07{background:url(/images/box/box08_07.gif) repeat-x ;height:5px}
+.pp07_08{background:url(/images/box/box08_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 블랙  bg:화이트 */
+.bk07_01{background:url(/images/box/box09_01.gif) no-repeat ;width:5px;height:5px}
+.bk07_02{background:url(/images/box/box09_02.gif) repeat-x ;height:5px}
+.bk07_03{background:url(/images/box/box09_03.gif) no-repeat ;width:5px;height:5px}
+.bk07_04{background:url(/images/box/box09_04.gif) repeat-y;width:5px;}
+.bk07_05{background:url(/images/box/box09_05.gif) repeat-y;width:5px;}
+.bk07_06{background:url(/images/box/box09_06.gif) no-repeat ;width:5px;height:5px}
+.bk07_07{background:url(/images/box/box09_07.gif) repeat-x ;height:5px}
+.bk07_08{background:url(/images/box/box09_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 연두  bg:화이트 */
+.lgr07_01{background:url(/images/box/box10_01.gif) no-repeat ;width:5px;height:5px}
+.lgr07_02{background:url(/images/box/box10_02.gif) repeat-x ;height:5px}
+.lgr07_03{background:url(/images/box/box10_03.gif) no-repeat ;width:5px;height:5px}
+.lgr07_04{background:url(/images/box/box10_04.gif) repeat-y;width:5px;}
+.lgr07_05{background:url(/images/box/box10_05.gif) repeat-y;width:5px;}
+.lgr07_06{background:url(/images/box/box10_06.gif) no-repeat ;width:5px;height:5px}
+.lgr07_07{background:url(/images/box/box10_07.gif) repeat-x ;height:5px}
+.lgr07_08{background:url(/images/box/box10_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 우리블루  bg:화이트 */
+.wbl07_01{background:url(/images/box/box11_01.gif) no-repeat ;width:5px;height:5px}
+.wbl07_02{background:url(/images/box/box11_02.gif) repeat-x ;height:5px}
+.wbl07_03{background:url(/images/box/box11_03.gif) no-repeat ;width:5px;height:5px}
+.wbl07_04{background:url(/images/box/box11_04.gif) repeat-y;width:5px;}
+.wbl07_05{background:url(/images/box/box11_05.gif) repeat-y;width:5px;}
+.wbl07_06{background:url(/images/box/box11_06.gif) no-repeat ;width:5px;height:5px}
+.wbl07_07{background:url(/images/box/box11_07.gif) repeat-x ;height:5px}
+.wbl07_08{background:url(/images/box/box11_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 브라운  bg:화이트 */
+.brn07_01{background:url(/images/box/box12_01.gif) no-repeat ;width:5px;height:5px}
+.brn07_02{background:url(/images/box/box12_02.gif) repeat-x ;height:5px}
+.brn07_03{background:url(/images/box/box12_03.gif) no-repeat ;width:5px;height:5px}
+.brn07_04{background:url(/images/box/box12_04.gif) repeat-y;width:5px;}
+.brn07_05{background:url(/images/box/box12_05.gif) repeat-y;width:5px;}
+.brn07_06{background:url(/images/box/box12_06.gif) no-repeat ;width:5px;height:5px}
+.brn07_07{background:url(/images/box/box12_07.gif) repeat-x ;height:5px}
+.brn07_08{background:url(/images/box/box12_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 오렌지  bg:화이트 */
+.org07_01{background:url(/images/box/box13_01.gif) no-repeat ;width:5px;height:5px}
+.org07_02{background:url(/images/box/box13_02.gif) repeat-x ;height:5px}
+.org07_03{background:url(/images/box/box13_03.gif) no-repeat ;width:5px;height:5px}
+.org07_04{background:url(/images/box/box13_04.gif) repeat-y;width:5px;}
+.org07_05{background:url(/images/box/box13_05.gif) repeat-y;width:5px;}
+.org07_06{background:url(/images/box/box13_06.gif) no-repeat ;width:5px;height:5px}
+.org07_07{background:url(/images/box/box13_07.gif) repeat-x ;height:5px}
+.org07_08{background:url(/images/box/box13_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 핫핑크  bg:화이트 */
+.hpk07_01{background:url(/images/box/box14_01.gif) no-repeat ;width:5px;height:5px}
+.hpk07_02{background:url(/images/box/box14_02.gif) repeat-x ;height:5px}
+.hpk07_03{background:url(/images/box/box14_03.gif) no-repeat ;width:5px;height:5px}
+.hpk07_04{background:url(/images/box/box14_04.gif) repeat-y;width:5px;}
+.hpk07_05{background:url(/images/box/box14_05.gif) repeat-y;width:5px;}
+.hpk07_06{background:url(/images/box/box14_06.gif) no-repeat ;width:5px;height:5px}
+.hpk07_07{background:url(/images/box/box14_07.gif) repeat-x ;height:5px}
+.hpk07_08{background:url(/images/box/box14_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 청록  bg:화이트 */
+.bgr07_01{background:url(/images/box/box15_01.gif) no-repeat ;width:5px;height:5px}
+.bgr07_02{background:url(/images/box/box15_02.gif) repeat-x ;height:5px}
+.bgr07_03{background:url(/images/box/box15_03.gif) no-repeat ;width:5px;height:5px}
+.bgr07_04{background:url(/images/box/box15_04.gif) repeat-y;width:5px;}
+.bgr07_05{background:url(/images/box/box15_05.gif) repeat-y;width:5px;}
+.bgr07_06{background:url(/images/box/box15_06.gif) no-repeat ;width:5px;height:5px}
+.bgr07_07{background:url(/images/box/box15_07.gif) repeat-x ;height:5px}
+.bgr07_08{background:url(/images/box/box15_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 다홍 bg:화이트 */
+.dho07_01{background:url(/images/box/box17_01.gif) no-repeat ;width:5px;height:5px}
+.dho07_02{background:url(/images/box/box17_02.gif) repeat-x ;height:5px}
+.dho07_03{background:url(/images/box/box17_03.gif) no-repeat ;width:5px;height:5px}
+.dho07_04{background:url(/images/box/box17_04.gif) repeat-y;width:5px;}
+.dho07_05{background:url(/images/box/box17_05.gif) repeat-y;width:5px;}
+.dho07_06{background:url(/images/box/box17_06.gif) no-repeat ;width:5px;height:5px}
+.dho07_07{background:url(/images/box/box17_07.gif) repeat-x ;height:5px}
+.dho07_08{background:url(/images/box/box17_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 진노랑  bg:화이트 */
+.yel07_01{background:url(/images/box/box18_01.gif) no-repeat ;width:5px;height:5px}
+.yel07_02{background:url(/images/box/box18_02.gif) repeat-x ;height:5px}
+.yel07_03{background:url(/images/box/box18_03.gif) no-repeat ;width:5px;height:5px}
+.yel07_04{background:url(/images/box/box18_04.gif) repeat-y;width:5px;}
+.yel07_05{background:url(/images/box/box18_05.gif) repeat-y;width:5px;}
+.yel07_06{background:url(/images/box/box18_06.gif) no-repeat ;width:5px;height:5px}
+.yel07_07{background:url(/images/box/box18_07.gif) repeat-x ;height:5px}
+.yel07_08{background:url(/images/box/box18_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:2px 진블루  bg:화이트 */
+.dbl07_01{background:url(/images/box/box16_01.gif) no-repeat ;width:5px;height:5px}
+.dbl07_02{background:url(/images/box/box16_02.gif) repeat-x ;height:5px}
+.dbl07_03{background:url(/images/box/box16_03.gif) no-repeat ;width:5px;height:5px}
+.dbl07_04{background:url(/images/box/box16_04.gif) repeat-y;width:5px;}
+.dbl07_05{background:url(/images/box/box16_05.gif) repeat-y;width:5px;}
+.dbl07_06{background:url(/images/box/box16_06.gif) no-repeat ;width:5px;height:5px}
+.dbl07_07{background:url(/images/box/box16_07.gif) repeat-x ;height:5px}
+.dbl07_08{background:url(/images/box/box16_08.gif) no-repeat ;width:5px;height:5px}
+
+
+/* border:1px 블루  bg:화이트 */
+.bl071_01{background:url(/images/box/box071_01.gif) no-repeat ;width:5px;height:5px}
+.bl071_02{background:url(/images/box/box071_02.gif) repeat-x ;height:5px}
+.bl071_03{background:url(/images/box/box071_03.gif) no-repeat ;width:5px;height:5px}
+.bl071_04{background:url(/images/box/box071_04.gif) repeat-y;width:5px;}
+.bl071_05{background:url(/images/box/box071_05.gif) repeat-y;width:5px;}
+.bl071_06{background:url(/images/box/box071_06.gif) no-repeat ;width:5px;height:5px}
+.bl071_07{background:url(/images/box/box071_07.gif) repeat-x ;height:5px}
+.bl071_08{background:url(/images/box/box071_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 퍼플  bg:화이트 */
+.pp071_01{background:url(/images/box/box081_01.gif) no-repeat ;width:5px;height:5px}
+.pp071_02{background:url(/images/box/box081_02.gif) repeat-x ;height:5px}
+.pp071_03{background:url(/images/box/box081_03.gif) no-repeat ;width:5px;height:5px}
+.pp071_04{background:url(/images/box/box081_04.gif) repeat-y;width:5px;}
+.pp071_05{background:url(/images/box/box081_05.gif) repeat-y;width:5px;}
+.pp071_06{background:url(/images/box/box081_06.gif) no-repeat ;width:5px;height:5px}
+.pp071_07{background:url(/images/box/box081_07.gif) repeat-x ;height:5px}
+.pp071_08{background:url(/images/box/box081_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 블랙  bg:화이트 */
+.bk071_01{background:url(/images/box/box091_01.gif) no-repeat ;width:5px;height:5px}
+.bk071_02{background:url(/images/box/box091_02.gif) repeat-x ;height:5px}
+.bk071_03{background:url(/images/box/box091_03.gif) no-repeat ;width:5px;height:5px}
+.bk071_04{background:url(/images/box/box091_04.gif) repeat-y;width:5px;}
+.bk071_05{background:url(/images/box/box091_05.gif) repeat-y;width:5px;}
+.bk071_06{background:url(/images/box/box091_06.gif) no-repeat ;width:5px;height:5px}
+.bk071_07{background:url(/images/box/box091_07.gif) repeat-x ;height:5px}
+.bk071_08{background:url(/images/box/box091_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 연두  bg:화이트 */
+.lgr071_01{background:url(/images/box/box101_01.gif) no-repeat ;width:5px;height:5px}
+.lgr071_02{background:url(/images/box/box101_02.gif) repeat-x ;height:5px}
+.lgr071_03{background:url(/images/box/box101_03.gif) no-repeat ;width:5px;height:5px}
+.lgr071_04{background:url(/images/box/box101_04.gif) repeat-y;width:5px;}
+.lgr071_05{background:url(/images/box/box101_05.gif) repeat-y;width:5px;}
+.lgr071_06{background:url(/images/box/box101_06.gif) no-repeat ;width:5px;height:5px}
+.lgr071_07{background:url(/images/box/box101_07.gif) repeat-x ;height:5px}
+.lgr071_08{background:url(/images/box/box101_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 우리블루  bg:화이트 */
+.wbl071_01{background:url(/images/box/box111_01.gif) no-repeat ;width:5px;height:5px}
+.wbl071_02{background:url(/images/box/box111_02.gif) repeat-x ;height:5px}
+.wbl071_03{background:url(/images/box/box111_03.gif) no-repeat ;width:5px;height:5px}
+.wbl071_04{background:url(/images/box/box111_04.gif) repeat-y;width:5px;}
+.wbl071_05{background:url(/images/box/box111_05.gif) repeat-y;width:5px;}
+.wbl071_06{background:url(/images/box/box111_06.gif) no-repeat ;width:5px;height:5px}
+.wbl071_07{background:url(/images/box/box111_07.gif) repeat-x ;height:5px}
+.wbl071_08{background:url(/images/box/box111_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 브라운  bg:화이트 */
+.brnbox071_01{background:url(/images/box/box121_01.gif) no-repeat ;width:5px;height:5px}
+.brnbox071_02{background:url(/images/box/box121_02.gif) repeat-x ;height:5px}
+.brnbox071_03{background:url(/images/box/box121_03.gif) no-repeat ;width:5px;height:5px}
+.brnbox071_04{background:url(/images/box/box121_04.gif) repeat-y;width:5px;}
+.brnbox071_05{background:url(/images/box/box121_05.gif) repeat-y;width:5px;}
+.brnbox071_06{background:url(/images/box/box121_06.gif) no-repeat ;width:5px;height:5px}
+.brnbox071_07{background:url(/images/box/box121_07.gif) repeat-x ;height:5px}
+.brnbox071_08{background:url(/images/box/box121_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 오렌지  bg:화이트 */
+.org071_01{background:url(/images/box/box131_01.gif) no-repeat ;width:5px;height:5px}
+.org071_02{background:url(/images/box/box131_02.gif) repeat-x ;height:5px}
+.org071_03{background:url(/images/box/box131_03.gif) no-repeat ;width:5px;height:5px}
+.org071_04{background:url(/images/box/box131_04.gif) repeat-y;width:5px;}
+.org071_05{background:url(/images/box/box131_05.gif) repeat-y;width:5px;}
+.org071_06{background:url(/images/box/box131_06.gif) no-repeat ;width:5px;height:5px}
+.org071_07{background:url(/images/box/box131_07.gif) repeat-x ;height:5px}
+.org071_08{background:url(/images/box/box131_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 핫핑크  bg:화이트 */
+.hpk071_01{background:url(/images/box/box141_01.gif) no-repeat ;width:5px;height:5px}
+.hpk071_02{background:url(/images/box/box141_02.gif) repeat-x ;height:5px}
+.hpk071_03{background:url(/images/box/box141_03.gif) no-repeat ;width:5px;height:5px}
+.hpk071_04{background:url(/images/box/box141_04.gif) repeat-y;width:5px;}
+.hpk071_05{background:url(/images/box/box141_05.gif) repeat-y;width:5px;}
+.hpk071_06{background:url(/images/box/box141_06.gif) no-repeat ;width:5px;height:5px}
+.hpk071_07{background:url(/images/box/box141_07.gif) repeat-x ;height:5px}
+.hpk071_08{background:url(/images/box/box141_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 청록  bg:화이트 */
+.bgr071_01{background:url(/images/box/box151_01.gif) no-repeat ;width:5px;height:5px}
+.bgr071_02{background:url(/images/box/box151_02.gif) repeat-x ;height:5px}
+.bgr071_03{background:url(/images/box/box151_03.gif) no-repeat ;width:5px;height:5px}
+.bgr071_04{background:url(/images/box/box151_04.gif) repeat-y;width:5px;}
+.bgr071_05{background:url(/images/box/box151_05.gif) repeat-y;width:5px;}
+.bgr071_06{background:url(/images/box/box151_06.gif) no-repeat ;width:5px;height:5px}
+.bgr071_07{background:url(/images/box/box151_07.gif) repeat-x ;height:5px}
+.bgr071_08{background:url(/images/box/box151_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 다홍 bg:화이트 */
+.dho071_01{background:url(/images/box/box171_01.gif) no-repeat ;width:5px;height:5px}
+.dho071_02{background:url(/images/box/box171_02.gif) repeat-x ;height:5px}
+.dho071_03{background:url(/images/box/box171_03.gif) no-repeat ;width:5px;height:5px}
+.dho071_04{background:url(/images/box/box171_04.gif) repeat-y;width:5px;}
+.dho071_05{background:url(/images/box/box171_05.gif) repeat-y;width:5px;}
+.dho071_06{background:url(/images/box/box171_06.gif) no-repeat ;width:5px;height:5px}
+.dho071_07{background:url(/images/box/box171_07.gif) repeat-x ;height:5px}
+.dho071_08{background:url(/images/box/box171_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 진노랑  bg:화이트 */
+.yel071_01{background:url(/images/box/box181_01.gif) no-repeat ;width:5px;height:5px}
+.yel071_02{background:url(/images/box/box181_02.gif) repeat-x ;height:5px}
+.yel071_03{background:url(/images/box/box181_03.gif) no-repeat ;width:5px;height:5px}
+.yel071_04{background:url(/images/box/box181_04.gif) repeat-y;width:5px;}
+.yel071_05{background:url(/images/box/box181_05.gif) repeat-y;width:5px;}
+.yel071_06{background:url(/images/box/box181_06.gif) no-repeat ;width:5px;height:5px}
+.yel071_07{background:url(/images/box/box181_07.gif) repeat-x ;height:5px}
+.yel071_08{background:url(/images/box/box181_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 진블루  bg:화이트 */
+.dbl071_01{background:url(/images/box/box161_01.gif) no-repeat ;width:5px;height:5px}
+.dbl071_02{background:url(/images/box/box161_02.gif) repeat-x ;height:5px}
+.dbl071_03{background:url(/images/box/box161_03.gif) no-repeat ;width:5px;height:5px}
+.dbl071_04{background:url(/images/box/box161_04.gif) repeat-y;width:5px;}
+.dbl071_05{background:url(/images/box/box161_05.gif) repeat-y;width:5px;}
+.dbl071_06{background:url(/images/box/box161_06.gif) no-repeat ;width:5px;height:5px}
+.dbl071_07{background:url(/images/box/box161_07.gif) repeat-x ;height:5px}
+.dbl071_08{background:url(/images/box/box161_08.gif) no-repeat ;width:5px;height:5px}
+
+
+/* border:1px 블루 border:4px 연블루  bg: */
+.bl072_01{background:url(/images/box/box0717_01.gif) no-repeat ;width:5px;height:5px}
+.bl072_02{background:url(/images/box/box0717_02.gif) repeat-x ;height:5px}
+.bl072_03{background:url(/images/box/box0717_03.gif) no-repeat ;width:5px;height:5px}
+.bl072_04{background:url(/images/box/box0717_04.gif) repeat-y;width:5px;}
+.bl072_05{background:url(/images/box/box0717_05.gif) repeat-y;width:5px;}
+.bl072_06{background:url(/images/box/box0717_06.gif) no-repeat ;width:5px;height:5px}
+.bl072_07{background:url(/images/box/box0717_07.gif) repeat-x ;height:5px}
+.bl072_08{background:url(/images/box/box0717_08.gif) no-repeat ;width:5px;height:5px}
+
+.pp072_01{background:url(/images/box/pp072_01.gif) no-repeat ;width:5px;height:5px}
+.pp072_02{background:url(/images/box/pp072_02.gif) repeat-x ;height:5px}
+.pp072_03{background:url(/images/box/pp072_03.gif) no-repeat ;width:5px;height:5px}
+.pp072_04{background:url(/images/box/pp072_04.gif) repeat-y;width:5px;}
+.pp072_05{background:url(/images/box/pp072_05.gif) repeat-y;width:5px;}
+.pp072_06{background:url(/images/box/pp072_06.gif) no-repeat ;width:5px;height:5px}
+.pp072_07{background:url(/images/box/pp072_07.gif) repeat-x ;height:5px}
+.pp072_08{background:url(/images/box/pp072_08.gif) no-repeat ;width:5px;height:5px}
+
+.lgr072_01{background:url(/images/box/lgr072_01.gif) no-repeat ;width:5px;height:5px}
+.lgr072_02{background:url(/images/box/lgr072_02.gif) repeat-x ;height:5px}
+.lgr072_03{background:url(/images/box/lgr072_03.gif) no-repeat ;width:5px;height:5px}
+.lgr072_04{background:url(/images/box/lgr072_04.gif) repeat-y;width:5px;}
+.lgr072_05{background:url(/images/box/lgr072_05.gif) repeat-y;width:5px;}
+.lgr072_06{background:url(/images/box/lgr072_06.gif) no-repeat ;width:5px;height:5px}
+.lgr072_07{background:url(/images/box/lgr072_07.gif) repeat-x ;height:5px}
+.lgr072_08{background:url(/images/box/lgr072_08.gif) no-repeat ;width:5px;height:5px}
+
+.wbl072_01{background:url(/images/box/wbl072_01.gif) no-repeat ;width:5px;height:5px}
+.wbl072_02{background:url(/images/box/wbl072_02.gif) repeat-x ;height:5px}
+.wbl072_03{background:url(/images/box/wbl072_03.gif) no-repeat ;width:5px;height:5px}
+.wbl072_04{background:url(/images/box/wbl072_04.gif) repeat-y;width:5px;}
+.wbl072_05{background:url(/images/box/wbl072_05.gif) repeat-y;width:5px;}
+.wbl072_06{background:url(/images/box/wbl072_06.gif) no-repeat ;width:5px;height:5px}
+.wbl072_07{background:url(/images/box/wbl072_07.gif) repeat-x ;height:5px}
+.wbl072_08{background:url(/images/box/wbl072_08.gif) no-repeat ;width:5px;height:5px}
+
+.bk072_01{background:url(/images/box/bk072_01.gif) no-repeat ;width:5px;height:5px}
+.bk072_02{background:url(/images/box/bk072_02.gif) repeat-x ;height:5px}
+.bk072_03{background:url(/images/box/bk072_03.gif) no-repeat ;width:5px;height:5px}
+.bk072_04{background:url(/images/box/bk072_04.gif) repeat-y;width:5px;}
+.bk072_05{background:url(/images/box/bk072_05.gif) repeat-y;width:5px;}
+.bk072_06{background:url(/images/box/bk072_06.gif) no-repeat ;width:5px;height:5px}
+.bk072_07{background:url(/images/box/bk072_07.gif) repeat-x ;height:5px}
+.bk072_08{background:url(/images/box/bk072_08.gif) no-repeat ;width:5px;height:5px}
+
+.bgr072_01{background:url(/images/box/bgr072_01.gif) no-repeat ;width:5px;height:5px}
+.bgr072_02{background:url(/images/box/bgr072_02.gif) repeat-x ;height:5px}
+.bgr072_03{background:url(/images/box/bgr072_03.gif) no-repeat ;width:5px;height:5px}
+.bgr072_04{background:url(/images/box/bgr072_04.gif) repeat-y;width:5px;}
+.bgr072_05{background:url(/images/box/bgr072_05.gif) repeat-y;width:5px;}
+.bgr072_06{background:url(/images/box/bgr072_06.gif) no-repeat ;width:5px;height:5px}
+.bgr072_07{background:url(/images/box/bgr072_07.gif) repeat-x ;height:5px}
+.bgr072_08{background:url(/images/box/bgr072_08.gif) no-repeat ;width:5px;height:5px}
+
+.org072_01{background:url(/images/box/org072_01.gif) no-repeat ;width:5px;height:5px}
+.org072_02{background:url(/images/box/org072_02.gif) repeat-x ;height:5px}
+.org072_03{background:url(/images/box/org072_03.gif) no-repeat ;width:5px;height:5px}
+.org072_04{background:url(/images/box/org072_04.gif) repeat-y;width:5px;}
+.org072_05{background:url(/images/box/org072_05.gif) repeat-y;width:5px;}
+.org072_06{background:url(/images/box/org072_06.gif) no-repeat ;width:5px;height:5px}
+.org072_07{background:url(/images/box/org072_07.gif) repeat-x ;height:5px}
+.org072_08{background:url(/images/box/org072_08.gif) no-repeat ;width:5px;height:5px}
+
+.yel072_01{background:url(/images/box/yel072_01.gif) no-repeat ;width:5px;height:5px}
+.yel072_02{background:url(/images/box/yel072_02.gif) repeat-x ;height:5px}
+.yel072_03{background:url(/images/box/yel072_03.gif) no-repeat ;width:5px;height:5px}
+.yel072_04{background:url(/images/box/yel072_04.gif) repeat-y;width:5px;}
+.yel072_05{background:url(/images/box/yel072_05.gif) repeat-y;width:5px;}
+.yel072_06{background:url(/images/box/yel072_06.gif) no-repeat ;width:5px;height:5px}
+.yel072_07{background:url(/images/box/yel072_07.gif) repeat-x ;height:5px}
+.yel072_08{background:url(/images/box/yel072_08.gif) no-repeat ;width:5px;height:5px}
+
+.hpk072_01{background:url(/images/box/hpk072_01.gif) no-repeat ;width:5px;height:5px}
+.hpk072_02{background:url(/images/box/hpk072_02.gif) repeat-x ;height:5px}
+.hpk072_03{background:url(/images/box/hpk072_03.gif) no-repeat ;width:5px;height:5px}
+.hpk072_04{background:url(/images/box/hpk072_04.gif) repeat-y;width:5px;}
+.hpk072_05{background:url(/images/box/hpk072_05.gif) repeat-y;width:5px;}
+.hpk072_06{background:url(/images/box/hpk072_06.gif) no-repeat ;width:5px;height:5px}
+.hpk072_07{background:url(/images/box/hpk072_07.gif) repeat-x ;height:5px}
+.hpk072_08{background:url(/images/box/hpk072_08.gif) no-repeat ;width:5px;height:5px}
+
+.brn072_01{background:url(/images/box/brn072_01.gif) no-repeat ;width:5px;height:5px}
+.brn072_02{background:url(/images/box/brn072_02.gif) repeat-x ;height:5px}
+.brn072_03{background:url(/images/box/brn072_03.gif) no-repeat ;width:5px;height:5px}
+.brn072_04{background:url(/images/box/brn072_04.gif) repeat-y;width:5px;}
+.brn072_05{background:url(/images/box/brn072_05.gif) repeat-y;width:5px;}
+.brn072_06{background:url(/images/box/brn072_06.gif) no-repeat ;width:5px;height:5px}
+.brn072_07{background:url(/images/box/brn072_07.gif) repeat-x ;height:5px}
+.brn072_08{background:url(/images/box/brn072_08.gif) no-repeat ;width:5px;height:5px}
+
+.dho072_01{background:url(/images/box/dho072_01.gif) no-repeat ;width:5px;height:5px}
+.dho072_02{background:url(/images/box/dho072_02.gif) repeat-x ;height:5px}
+.dho072_03{background:url(/images/box/dho072_03.gif) no-repeat ;width:5px;height:5px}
+.dho072_04{background:url(/images/box/dho072_04.gif) repeat-y;width:5px;}
+.dho072_05{background:url(/images/box/dho072_05.gif) repeat-y;width:5px;}
+.dho072_06{background:url(/images/box/dho072_06.gif) no-repeat ;width:5px;height:5px}
+.dho072_07{background:url(/images/box/dho072_07.gif) repeat-x ;height:5px}
+.dho072_08{background:url(/images/box/dho072_08.gif) no-repeat ;width:5px;height:5px}
+
+
+/* 블루라운딩 */
+.bl073_02,.bl073_04,.bl073_05,.bl073_07,.bl073{background-color:#dfebf7;}
+.bl073_01{background:url(/images/box/box077_01.gif) no-repeat;width:5px;height:5px}
+.bl073_03{background:url(/images/box/box077_02.gif) no-repeat;width:5px;height:5px}
+.bl073_06{background:url(/images/box/box077_03.gif) no-repeat;width:5px;height:5px}
+.bl073_08{background:url(/images/box/box077_04.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 02*/
+.pp073_02,.pp073_04,.pp073_05,.pp073_07,.pp073{background:url(/images/box/pp073_02.gif);}
+.pp073_01{background:url(/images/box/pp073_01.gif) no-repeat;width:5px;height:5px}
+.pp073_03{background:url(/images/box/pp073_03.gif) no-repeat;width:5px;height:5px}
+.pp073_06{background:url(/images/box/pp073_04.gif) no-repeat;width:5px;height:5px}
+.pp073_08{background:url(/images/box/pp073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 03*/
+.lgr073_02,.lgr073_04,.lgr073_05,.lgr073_07,.lgr073{background:url(/images/box/lgr073_02.gif);}
+.lgr073_01{background:url(/images/box/lgr073_01.gif) no-repeat;width:5px;height:5px}
+.lgr073_03{background:url(/images/box/lgr073_03.gif) no-repeat;width:5px;height:5px}
+.lgr073_06{background:url(/images/box/lgr073_04.gif) no-repeat;width:5px;height:5px}
+.lgr073_08{background:url(/images/box/lgr073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 04*/
+.org073_02,.org073_04,.org073_05,.org073_07,.org073{background:url(/images/box/org073_02.gif);}
+.org073_01{background:url(/images/box/org073_01.gif) no-repeat;width:5px;height:5px}
+.org073_03{background:url(/images/box/org073_03.gif) no-repeat;width:5px;height:5px}
+.org073_06{background:url(/images/box/org073_04.gif) no-repeat;width:5px;height:5px}
+.org073_08{background:url(/images/box/org073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 05*/
+.yel073_02,.yel073_04,.yel073_05,.yel073_07,.yel073{background:url(/images/box/yel073_02.gif);}
+.yel073_01{background:url(/images/box/yel073_01.gif) no-repeat;width:5px;height:5px}
+.yel073_03{background:url(/images/box/yel073_03.gif) no-repeat;width:5px;height:5px}
+.yel073_06{background:url(/images/box/yel073_04.gif) no-repeat;width:5px;height:5px}
+.yel073_08{background:url(/images/box/yel073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 06*/
+.bgr073_02,.bgr073_04,.bgr073_05,.bgr073_07,.bgr073{background:url(/images/box/bgr073_02.gif);}
+.bgr073_01{background:url(/images/box/bgr073_01.gif) no-repeat;width:5px;height:5px}
+.bgr073_03{background:url(/images/box/bgr073_03.gif) no-repeat;width:5px;height:5px}
+.bgr073_06{background:url(/images/box/bgr073_04.gif) no-repeat;width:5px;height:5px}
+.bgr073_08{background:url(/images/box/bgr073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 07*/
+.brn073_02,.brn073_04,.brn073_05,.brn073_07,.brn073{background:url(/images/box/brn073_02.gif);}
+.brn073_01{background:url(/images/box/brn073_01.gif) no-repeat;width:5px;height:5px}
+.brn073_03{background:url(/images/box/brn073_03.gif) no-repeat;width:5px;height:5px}
+.brn073_06{background:url(/images/box/brn073_04.gif) no-repeat;width:5px;height:5px}
+.brn073_08{background:url(/images/box/brn073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 08*/
+.bk073_02,.bk073_04,.bk073_05,.bk073_07,.bk073{background:url(/images/box/bk073_02.gif);}
+.bk073_01{background:url(/images/box/bk073_01.gif) no-repeat;width:5px;height:5px}
+.bk073_03{background:url(/images/box/bk073_03.gif) no-repeat;width:5px;height:5px}
+.bk073_06{background:url(/images/box/bk073_04.gif) no-repeat;width:5px;height:5px}
+.bk073_08{background:url(/images/box/bk073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 09*/
+.hpk073_02,.hpk073_04,.hpk073_05,.hpk073_07,.hpk073{background:url(/images/box/hpk073_02.gif);}
+.hpk073_01{background:url(/images/box/hpk073_01.gif) no-repeat;width:5px;height:5px}
+.hpk073_03{background:url(/images/box/hpk073_03.gif) no-repeat;width:5px;height:5px}
+.hpk073_06{background:url(/images/box/hpk073_04.gif) no-repeat;width:5px;height:5px}
+.hpk073_08{background:url(/images/box/hpk073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 10*/
+.wbl073_02,.wbl073_04,.wbl073_05,.wbl073_07,.wbl073{background:url(/images/box/wbl073_02.gif);}
+.wbl073_01{background:url(/images/box/wbl073_01.gif) no-repeat;width:5px;height:5px}
+.wbl073_03{background:url(/images/box/wbl073_03.gif) no-repeat;width:5px;height:5px}
+.wbl073_06{background:url(/images/box/wbl073_04.gif) no-repeat;width:5px;height:5px}
+.wbl073_08{background:url(/images/box/wbl073_05.gif) no-repeat;width:5px;height:5px}
+
+/* 라운딩 11*/
+.dho073_02,.dho073_04,.dho073_05,.dho073_07,.dho073{background:url(/images/box/dho073_02.gif);}
+.dho073_01{background:url(/images/box/dho073_01.gif) no-repeat;width:5px;height:5px}
+.dho073_03{background:url(/images/box/dho073_03.gif) no-repeat;width:5px;height:5px}
+.dho073_06{background:url(/images/box/dho073_04.gif) no-repeat;width:5px;height:5px}
+.dho073_08{background:url(/images/box/dho073_05.gif) no-repeat;width:5px;height:5px}
+
+
+
+
+
+

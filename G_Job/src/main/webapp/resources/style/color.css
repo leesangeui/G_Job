@@ -1,0 +1,143 @@
+/* Color Link style ===========================================================================================================================*/
+.wht,a.wht:link,a.wht:visited,a.wht:active,a.wht:hover{color:#ffffff;} /*화이트*/
+.gr,a.gr:link,a.gr:visited,a.gr:active,a.gr:hover{color:#a6a6a6;} /*연회색*/
+.dgr,a.dgr:link,a.dgr:visited,a.dgr:active,a.dgr:hover{color:#808080;} /*회색*/
+.ddgr,a.ddgr:link,a.ddgr:visited,a.ddgr:active,a.ddgr:hover{color:#333333;} /*진회색*/
+.navy,a.navy:link,a.navy:visited,a.navy:active,a.navy:hover{color:#0b3573;} /*네이비*/
+.mag,a.mag:link,a.mag:visited,a.mag:active,a.mag:hover{color:#661414;} /*마젠타*/
+.red,a.red:link,a.red:visited,a.red:active,a.red:hover{color:#c80227;} /*레드*/
+.lem,a.lem:link,a.lem:visited,a.lem:active,a.lem:hover{color:#ffffb2;} /*레몬*/
+.land,a.land:link,a.land:visited,a.land:active,a.land:hover{color:#cc9c3d;} /*황토*/
+.grn,a.grn:link,a.grn:visited,a.grn:active,a.grn:hover{color:#4c992e;} /*그린*/
+.dgrn,a.dgrn:link,a.dgrn:visited,a.dgrn:active,a.dgrn:hover{color:#33806c;} /*진그린*/
+.oliv,a.oliv:link,a.oliv:visited,a.oliv:active,a.oliv:hover{color:#739900;} /*올리브*/
+
+.bl,a.bl:link,a.bl:visited,a.bl:active,a.bl:hover{color:#3068af;} /*블루*/
+.pp,a.pp:link,a.pp:visited,a.pp:active,a.pp:hover{color:#5f34b1;} /*퍼플*/
+.bk,a.bk:link,a.bk:visited,a.bk:active,a.bk:hover{color:#000000;} /*블랙*/
+.lgr,a.lgr:link,a.lgr:visited,a.lgr:active,a.lgr:hover{color:#75a621;} /*연두*/ 
+.bgr,a.bgr:link,a.bgr:visited,a.bgr:active,a.bgr:hover{color:#1d9fb3;} /*청록*/ 
+.hpk,a.hpk:link,a.hpk:visited,a.hpk:active,a.hpk:hover{color:#b34798;} /*핑크*/
+.yel,a.yel:link,a.yel:visited,a.yel:active,a.yel:hover{color:#f29d00;} /*노랑*/
+.wbl,a.wbl:link,a.wbl:visited,a.wbl:active,a.wbl:hover{color:#399ce1;} /*우리블루*/
+.dho,a.dho:link,a.dho:visited,a.dho:active,a.dho:hover{color:#d92b2b;} /*다홍*/
+.brn,a.brn:link,a.brn:visited,a.brn:active,a.brn:hover{color:#613c1d;} /*브라운*/
+.org,a.org:link,a.org:visited,a.org:active,a.org:hover{color:#e56300;} /*오렌지*/
+.basic,a.basic:link,a.basic:visited,a.basic:active,a.basic:hover{color:#595959;} /*베이직,그레이*/
+
+
+.mbl,a.mbl:link,a.mbl:visited,a.mbl:active{color:#2c4795}/*메인블루*/
+.mgrn,a.mgrn:link,a.mgrn:visited,a.mgrn:active{color:#00946f;} /*메인그린*/
+.mlgr,a.mlgr:link,a.mlgr:visited,a.mlgr:active{color:#639917;} /*메인연두*/
+.mwbl,a.mwbl:link,a.mwbl:visited,a.mwbl:active{color:#157fd3;} /*메인우리블루*/
+
+#topmn_blue a:link, #topmn_blue a:visited, #topmn_blue a:active {text-decoration:none;} #topmn_blue a:hover{color:#366cb3;}
+#topmn_bl a:link, #topmn_bl a:visited, #topmn_bl a:active {text-decoration:none;} #topmn_bl a:hover{color:#366cb3;}
+#topmn_pp a:link, #topmn_pp a:visited, #topmn_pp a:active {text-decoration:none;} #topmn_pp a:hover{color:#491f99;}
+#topmn_bk a:link, #topmn_bk a:visited, #topmn_bk a:active {text-decoration:none;} #topmn_bk a:hover{color:#000000;}
+#topmn_lgr a:link, #topmn_lgr a:visited, #topmn_lgr a:active {text-decoration:none;} #topmn_lgr a:hover{color:#7eb424;}
+#topmn_bgr a:link, #topmn_bgr a:visited, #topmn_bgr a:active {text-decoration:none;} #topmn_bgr a:hover{color:#1ba4b9;}
+#topmn_hpk a:link, #topmn_hpk a:visited, #topmn_hpk a:active {text-decoration:none;} #topmn_hpk a:hover{color:#cf64b4;}
+#topmn_yel a:link, #topmn_yel a:visited, #topmn_yel a:active {text-decoration:none;} #topmn_yel a:hover{color:#f4a107;}
+#topmn_wbl a:link, #topmn_wbl a:visited, #topmn_wbl a:active {text-decoration:none;} #topmn_wbl a:hover{color:#2e9ce5;}
+#topmn_dho a:link, #topmn_dho a:visited, #topmn_dho a:active {text-decoration:none;} #topmn_dho a:hover{color:#e34040;}
+#topmn_brn a:link, #topmn_brn a:visited, #topmn_brn a:active {text-decoration:none;} #topmn_brn a:hover{color:#69482b;}
+#topmn_org a:link, #topmn_org a:visited, #topmn_org a:active {text-decoration:none;} #topmn_org a:hover{color:#ea6a04;}
+
+
+input.tbl{border:1 solid #3069af;} input.tpp{border:1 solid #491f99;} input.tbk{border:1 solid #000000;} 
+input.tlgr{border:1 solid #669c18;} input.tbgr{border:1 solid #0c8ea8;} input.thpk{border:1 solid #942c7a;} 
+input.torg{border:1 solid #e65203;} input.tbrn{border:1 solid #4c2508;} input.twbl{border:1 solid #157fd3;} 
+input.tdho{border:1 solid #dd2f2f;} input.tyel{border:1 solid #f8af0b;} 
+
+.ln_bl{background-color:#3170b5}    .bg_bl{background-color:#f1f6fa}    .dash_bl{border-bottom:1 dashed #3881cf;}  .dot_bl{border-bottom:1 dotted #3881cf;}
+.ln_pp{background-color:#6339b6}    .bg_pp{background-color:#f5f2fa}    .dash_pp{border-bottom:1 dashed #5624b3;}  .dot_pp{border-bottom:1 dotted #5624b3;}
+.ln_bk{background-color:#000000}    .bg_bk{background-color:#efefef}    .dash_bk{border-bottom:1 dashed #676767;}  .dot_bk{border-bottom:1 dotted #676767;}
+.ln_lgr{background-color:#669c18}   .bg_lgr{background-color:#f6f9f0}   .dash_lgr{border-bottom:1 dashed #75b51b;} .dot_lgr{border-bottom:1 dotted #75b51b;}
+.ln_bgr{background-color:#0c8ea8}   .bg_bgr{background-color:#eff8fa}   .dash_bgr{border-bottom:1 dashed #0ea4c2;} .dot_bgr{border-bottom:1 dotted #0ea4c2;}
+.ln_hpk{background-color:#942c7a}   .bg_hpk{background-color:#f9f2f7}   .dash_hpk{border-bottom:1 dashed #d57cbf;} .dot_hpk{border-bottom:1 dotted #d57cbf;}
+.ln_org{background-color:#e65203}   .bg_org{background-color:#faf1eb}   .dash_org{border-bottom:1 dashed #f56016;} .dot_org{border-bottom:1 dotted #f56016;}
+.ln_brn{background-color:#4c2508}   .bg_brn{background-color:#f5f2f0}   .dash_brn{border-bottom:1 dashed #66330b;} .dot_brn{border-bottom:1 dotted #66330b;}
+.ln_wbl{background-color:#157fd3}   .bg_wbl{background-color:#f1f8fd}   .dash_wbl{border-bottom:1 dashed #157fd3;} .dot_wbl{border-bottom:1 dotted #157fd3;}
+.ln_dho{background-color:#dd2f2f}   .bg_dho{background-color:#fdf1f1}   .dash_dho{border-bottom:1 dashed #f22424;} .dot_dho{border-bottom:1 dotted #f22424;}
+.ln_yel{background-color:#f5a408}   .bg_yel{background-color:#fef8ee}   .dash_yel{border-bottom:1 dashed #ffac12;} .dot_brn{border-bottom:1 dotted #ffac12;}
+.ln_basic{background-color:#999999} .bg_basic{background-color:#fafafa} .dash_basic{border-bottom:1 dashed #bfbfbf;} .dot_basic{border-bottom:1 dotted #bfbfbf;}
+
+.leftmn_bl{background:url(/images/bl/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand;}
+.leftmn_pp{background:url(/images/pp/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_bk{background:url(/images/bk/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_lgr{background:url(/images/lgr/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_bgr{background:url(/images/bgr/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_hpk{background:url(/images/hpk/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_org{background:url(/images/org/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_brn{background:url(/images/brn/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_wbl{background:url(/images/wbl/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_dho{background:url(/images/dho/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_yel{background:url(/images/yel/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+.leftmn_basic{background:url(/images/basic/leftmn_08.gif) no-repeat;width:188;height:32;padding:3 3 3 7;cursor:hand}
+
+.bg_blue{background-color:#004d80}
+
+.tbox_bl {position:relative;width:100%; height:29px; background:url(/images/bl/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_bl div {position:relative;width:100%; height:29px; background:url(/images/bl/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_pp {position:relative;width:100%; height:29px; background:url(/images/pp/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_pp div {position:relative;width:100%; height:29px; background:url(/images/pp/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_bk {position:relative;width:100%; height:29px; background:url(/images/bk/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_bk div {position:relative;width:100%; height:29px; background:url(/images/bk/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_lgr {position:relative;width:100%; height:29px; background:url(/images/lgr/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_lgr div {position:relative;width:100%; height:29px; background:url(/images/lgr/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_bgr {position:relative;width:100%; height:29px; background:url(/images/bgr/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_bgr div {position:relative;width:100%; height:29px; background:url(/images/bgr/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_hpk {position:relative;width:100%; height:29px; background:url(/images/hpk/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_hpk div {position:relative;width:100%; height:29px; background:url(/images/hpk/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_org {position:relative;width:100%; height:29px; background:url(/images/org/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_org div {position:relative;width:100%; height:29px; background:url(/images/org/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_brn {position:relative;width:100%; height:29px; background:url(/images/brn/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_brn div {position:relative;width:100%; height:29px; background:url(/images/brn/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_wbl {position:relative;width:100%; height:29px; background:url(/images/wbl/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_wbl div {position:relative;width:100%; height:29px; background:url(/images/wbl/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_dho {position:relative;width:100%; height:29px; background:url(/images/dho/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_dho div {position:relative;width:100%; height:29px; background:url(/images/dho/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_yel {position:relative;width:100%; height:29px; background:url(/images/yel/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_yel div {position:relative;width:100%; height:29px; background:url(/images/yel/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+.tbox_basic {position:relative;width:100%; height:29px; background:url(/images/basic/bg_01.gif) no-repeat left;margin:3 0}
+.tbox_basic div {position:relative;width:100%; height:29px; background:url(/images/basic/bg_02.gif) no-repeat right;padding:7 10 0 10;}
+
+.gr_bl{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#edf1fa);}
+.gr_pp{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#e8e6f2;}
+.gr_bk{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#fafafa,EndColorStr=#f2f2f2);}
+.gr_lgr{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#f5faed);}
+.gr_bgr{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#edf8fa);}
+.gr_hpk{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#faedf7);}
+.gr_org{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#faf2ed);}
+.gr_brn{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#faf3ed);}
+.gr_wbl{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#edf4fa);}
+.gr_dho{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#faeded);}
+.gr_yel{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#faf5ed);}
+.gr_basic{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#fafafa);}
+
+.grr_bl{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#edf1fa,EndColorStr=#ffffff);}
+.grr_pp{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#e8e6f2,EndColorStr=#ffffff;}
+.grr_bk{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f2f2f2,EndColorStr=#fafafa);}
+.grr_lgr{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f5faed,EndColorStr=#ffffff);}
+.grr_bgr{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#edf8fa,EndColorStr=#ffffff);}
+.grr_hpk{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#faedf7,EndColorStr=#ffffff);}
+.grr_org{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#faf2ed,EndColorStr=#ffffff);}
+.grr_brn{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#faf3ed,EndColorStr=#ffffff);}
+.grr_wbl{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#edf4fa,EndColorStr=#ffffff);}
+.grr_dho{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#faeded,EndColorStr=#ffffff);}
+.grr_yel{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#faf5ed,EndColorStr=#ffffff);}
+.grr_basic{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#fafafa,EndColorStr=#ffffff);}
+
+.grf_bl{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#369bd6,EndColorStr=#2c4795);}
+.grf_pp{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#8156d6,EndColorStr=#491f99);}
+.grf_bk{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#595959,EndColorStr=#000000);}
+.grf_lgr{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#a3d936,EndColorStr=#639917);}
+.grf_bgr{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#36c9d6,EndColorStr=#0c8ea8);}
+.grf_hpk{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#eb7fd0,EndColorStr=#942c7a);}
+.grf_org{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f08c07,EndColorStr=#e54d02);}
+.grf_brn{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#816447,EndColorStr=#4c2508);}
+.grf_wbl{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#71c8f6,EndColorStr=#157fd3);}
+.grf_dho{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f57171,EndColorStr=#d41515);}
+.grf_yel{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#fec410,EndColorStr=#ed8901);}
+.grf_basic{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f5f5f5,EndColorStr=#999999);}

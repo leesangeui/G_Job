@@ -1,10 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ include file="../setting.jsp" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head>
 <link rel="stylesheet" href="/pro/resources/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="${style}style.css">
+<link rel="stylesheet" type="text/css" href="${style}box.css">
+<link rel="stylesheet" type="text/css" href="${style}color.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style>
@@ -140,6 +144,11 @@
 </script>
 </head>
 <body>
+
+
+
+
+<!-- ---------------------------------- 로그인 화면 시작 ------------------------------------- -->
 	<c:if test="${sessionScope.ISessionId==null}">
 		<c:if test="${sessionScope.CSessionId==null}">
 			<div class="container">
@@ -165,7 +174,7 @@
 											role="form" style="display: block;">
 											<input type="hidden" name="type" value="1">
 											<div class="form-group">
-												<input type="text" name="id" id=id " tabindex="1"
+												<input type="text" name="id" id="id" tabindex="1"
 													class="form-control" placeholder="Username" value="">
 											</div>
 											<div class="form-group">
@@ -261,9 +270,11 @@
 											<img  src="sanjin.jsp">
 										</div>
 										<div class="col-sm-6">
+										<ul>
 											<li> 등록 이력서    *건</li>
 											<li> 스크랩 채용공고 *건</li>
 											<li> 미확인 쪽지 </li>
+										</ul>
 										</div>
 										</div>
 										<div class="form-group">
@@ -312,10 +323,12 @@
 											<img  src="sanjin.jsp">
 										</div>
 										<div class="col-sm-6">
+										<ul>
 											<li> 게재 중 공고    *건</li>
 											<li> 입사 지원자 *건</li>
 											<li> 스크랩 인재 </li>
 											<li> 미확인 쪽지 </li>
+										</ul>
 										</div>
 										</div>
 										<div class="form-group">
@@ -338,5 +351,7 @@
 			</div>
 		</div>
 	</c:if>
+	
+<!-- ---------------------------------- 로그인 화면  종료------------------------------------- -->	
 </body>
 </html>

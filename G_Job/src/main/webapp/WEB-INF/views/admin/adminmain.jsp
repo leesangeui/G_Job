@@ -1,9 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ include file="../setting.jsp" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="${style}style.css">
+<link rel="stylesheet" type="text/css" href="${style}box.css">
+<link rel="stylesheet" type="text/css" href="${style}color.css">
+<link rel="stylesheet" type="text/css" href="${image}.css">
 <link rel="stylesheet" href="/pro/resources/css/bootstrap.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
@@ -123,6 +128,111 @@
 </script>
 </head>
 <body>
+<!-- ----------------------------------------------탑 섹션 시작--------------------------------------------------------- -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="center">
+
+<table width="900" border="0" cellspacing="0" cellpadding="0"><tr>
+<td><b><a href="/nad/main/index.html"><img src="${image}admt_adm.gif" width="153" height="50"></a></b></td>
+<td align="right"><a href="/nad/member/sms_send.html" class="num11 b"><img src="${allimage}basic/bul_19.gif" align="absmiddle" hspace="4">SMS</a>&nbsp;&nbsp;<a href="/nad/others/manual.html" class="fon11 b"><img src="${allimage}basic/bul_19.gif" align="absmiddle" hspace="4"><font class="org">매뉴얼</font></a><img src="${allimage}common/b.gif" hspace="25"><a href="/nad/main/" class="fon11 none"><img src="${allimage}basic/bul_19.gif" align="absmiddle" hspace="4">처음으로</a>&nbsp;&nbsp;<a href="/index.html" target="_blank" class="fon11 none b"><img src="${allimage}basic/bul_19.gif" align="absmiddle" hspace="4">MY SITE</a>&nbsp;&nbsp;<a href="/nad/login/login.php?mode=logout" class="fon11 none"><img src="${allimage}basic/bul_19.gif" align="absmiddle" hspace="4">접속종료</a></td>
+</tr></table>
+
+</td></tr>
+
+<tr><td align="center" background="${image}topmn_bg.gif">
+		<table width="900" border="0" cellspacing="0" cellpadding="0">
+		<tr align="center">
+		<td align="center"><a href="#admin_top_view1" onMouseOver="toggle_top_View(this);change_img('top1','${image}admtmn_r01.gif')" onMouseOut="change_img('top1','${image}admtmn_01.gif')" onClick="location.href='/nad/job/employ_list.html'"><img src="${image}admtmn_01.gif" name="top1" style="filter:blendTrans(duration=0.3)"></a></td>
+		<td align="center"><a href="#admin_top_view2" onMouseOver="toggle_top_View(this);change_img('top2','${image}admtmn_r02.gif')" onMouseOut="change_img('top2','${image}admtmn_02.gif')" onClick="location.href='/nad/member/total_list.php?type=indi'"><img src="${image}admtmn_02.gif" name="top2" style="filter:blendTrans(duration=0.3)"></a></td>
+		<td align="center"><a href="#admin_top_view3" onMouseOver="toggle_top_View(this);change_img('top3','${image}admtmn_r03.gif')" onMouseOut="change_img('top3','${image}admtmn_03.gif')" onClick="location.href='/nad/payment/pay_list.php'"><img src="${image}admtmn_03.gif" name="top3" style="filter:blendTrans(duration=0.3)"></a></td>
+		<td align="center"><a href="#admin_top_view4" onMouseOver="toggle_top_View(this);change_img('top4','${image}admtmn_r04.gif')" onMouseOut="change_img('top4','${image}admtmn_04.gif')" onClick="location.href='/nad/design/banner_list.html'"><img src="${image}admtmn_04.gif" name="top4" style="filter:blendTrans(duration=0.3)"></a></td>
+		<td align="center"><a href="#admin_top_view5" onMouseOver="toggle_top_View(this);change_img('top5','${image}admtmn_r05.gif')" onMouseOut="change_img('top5','${image}admtmn_05.gif')" onClick="location.href='/nad/s_environment/admin_change.php'"><img src="${image}admtmn_05.gif" name="top5" style="filter:blendTrans(duration=0.3)"></a></td>
+<!--	<td width="100" align="center">
+		<a href="#admin_top_view6" onMouseover="toggle_top_View(this);" onMouseout="">솔루션<br>환경설정</a>
+		</td>
+-->
+		<td align="center"><a href="#admin_top_view7" onMouseOver="toggle_top_View(this);change_img('top6','${image}admtmn_r06.gif')" onMouseOut="change_img('top6','${image}admtmn_06.gif')" onClick="location.href='/nad/others/call_list.html'"><img src="${image}admtmn_06.gif" name="top6" style="filter:blendTrans(duration=0.3)"></a></td>
+    <td align="center"><a href="#admin_top_view8" onMouseOver="toggle_top_View(this);change_img('top7','${image}admtmn_r07.gif')" onMouseOut="change_img('top7','${image}admtmn_07.gif')" onClick="javascript:location.href='/nad/board/board_list.html'"><img src="${image}admtmn_07.gif" name="top7" style="filter:blendTrans(duration=0.3)"></a></td>
+		<td align="center"><a href="#admin_top_view9" onMouseOver="toggle_top_View(this);change_img('top8','${image}admtmn_r08.gif')" onMouseOut="change_img('top8','${image}admtmn_08.gif')" onClick="location.href='/nad/statistics/log_main.html'"><img src="${image}admtmn_08.gif" name="top8" style="filter:blendTrans(duration=0.3)"></a></td>
+		</tr>
+		</table>
+
+
+</td></tr>
+<tr><td align="center" style="padding:10 0;" class="lbg ln_b" height="31">
+		<div style="width:900">
+    <div id="admin_top_view1" style="display:none;"><div style="position:relative;padding-bottom:10;width:900" align="center"><div style="position:absolute;text-align:left;left:5;" class="List">
+							<li class="end"><a href="/nad/job/employ_list.html" onMouseover="this.style.backgroundColor='#cccccc';" onMouseout="this.style.backgroundColor='';" >채용공고관리</a></li>
+										<li><a href="/nad/job/resume_list.html" >이력서관리</a></li>
+			      				<li><a href="/nad/job/company_join.html"  >입사지원관리</a></li>
+			                          <li><a href="/nad/job/hdht_list.html" >헤드헌팅 채용공고관리</a></li>
+                                <li><a href="/nad/job/hdht_join.html"  >헤드헌팅 입사지원현황</a></li>
+                        <li><a href="/nad/job/alba_list.html"  >알바 채용공고관리</a></li>
+              <li><a href="/nad/job/resume_alba_list.html"  >알바이력서관리</a></li>
+              <li><a href="/nad/job/scrap_list.html" >스크랩관리</a></li>
+    	       <li><a href="/nad/job/admin_input.html"  >관리자 등록관리</a></li>
+        </div></div></div>
+
+   <div id="admin_top_view2" style="display:none;"><div style="position:relative;padding-bottom:10;width:900" align="center"><div style="position:absolute;text-align:left;left:117" class="List">
+							<li class="end"><a href="/nad/member/total_list.php?type=indi" style="background-color: '';" >개인 회원관리</a></li>
+										<li><a href="/nad/member/job_list.php?type=job" >기업 회원관리</a></li>
+												<li><a href="/nad/member/hdht_list.php"  >서치펌 회원관리</a></li>
+				<li><a href="/nad/member/hdht2_list.php"  >헤드헌터 회원관리</a></li>
+					
+							<li><a href="/nad/member/sms_send.html">회원SMS발송</a></li>
+										<li><a href="/nad/member/mailing_send.html">회원메일링발송</a></li>
+										<li><a href="/nad/member/withdraw_list.php" >탈퇴 회원관리</a></li>
+			    </div></div></div>
+
+		<div id="admin_top_view3" style="display:none;"><div style="position:relative;padding-bottom:10;width:900" align="center"><div style="position:absolute;text-align:left;left:225;" class="List">
+
+							<li class="end"><a href="/nad/payment/pay_list.php" >결제현황관리</a></li>
+										<li><a href="/nad/payment/pay_list.php?mode=use_bank"  >온라인입금관리</a></li>
+			
+							<li><a href="/nad/payment/money_list.html" >서비스금액관리</a></li>
+										<li><a href="/nad/payment/pg_list.html"  >결제환경 설정</a></li>
+					</div></div></div>
+
+		<div id="admin_top_view4" style="display:none;"><div style="position:relative;padding-bottom:10"><div style="position:absolute;text-align:left;left:-100;" class="List">
+							<li class="end"><a href="/nad/design/banner_list.html?code=banner3" >배너관리</a></li>
+										<li><a href="/nad/design/image_top.html" >사이트디자인관리</a></li>
+			   </div></div></div>
+
+		<div id="admin_top_view5" style="display:none;"><div style="position:relative;padding-bottom:10"><div style="position:absolute;text-align:left;right:15;" class="List">
+							<li class="end"><a href="/nad/s_environment/admin_change.php" >아이디/비밀번호 설정</a></li>
+										<li><a href="/nad/s_environment/admin_list.html" >부관리자설정</a></li>
+										<li><a href="/nad/s_environment/base_environment.html" >사이트운영관리</a></li>
+										<li><a href="/nad/j_environment/config_list2.php?type=area">등록폼설정</a></li>
+										<li><a href="/nad/j_environment/config_num.php" >페이지출력갯수</a></li>
+										<li><a href="/nad/j_environment/sms_environment.html" >SMS환경설정</a></li>
+			    </div></div></div>
+
+		<div id="admin_top_view7" style="display:none;"><div style="position:relative;padding-bottom:10"><div style="position:absolute;text-align:left;right:15;" class="List">
+							<li class="end"><a href="/nad/others/call_list.html?type=1">고객센터관리</a></li>
+										<li><a href="/nad/others/sms_list.html">문자상담관리</a></li>
+										<li><a href="/nad/others/call_list.html?type=2"  >제휴문의관리</a></li>
+										<li><a href="/nad/others/popup_list.html"  >팝업창관리</a></li>
+										<li><a href="/nad/others/poll_list.html" >설문조사관리</a></li>
+										<li><a href="/nad/others/tax_list.html">세금계산서관리</a></li>
+			    </div></div></div>
+
+		<div id="admin_top_view8" style="display:none;"><div style="position:relative;padding-bottom:10"><div style="position:absolute;text-align:left;left:240;" class="List">
+          <li class="end"><a href="/nad/board/board_list.html" >게시판관리</a></li>
+              <li><a href="/nad/notice/list.php" >공지사항 관리</a></li>
+        </div></div></div>
+
+		<div id="admin_top_view9" style="display:none;"><div style="position:relative;padding-bottom:10"><div style="position:absolute;text-align:left;right:0;" class="List">
+							<li class="end"><a href="/nad/statistics/log_main.html">오늘 사이트통계</a></li>
+										<li><a href="/nad/statistics/search_hit.html">인기검색어 관리</a></li>
+										<li><a href="/nad/statistics/search_time.html">실시간검색어 관리</a></li>
+			      				<li><a href="/nad/statistics/search_hot.html">Hot 검색어 관리</a></li>
+			    </div></div></div>
+</div>
+</table>
+
+
+<!-- ----------------------------------------------탑 섹션 시작--------------------------------------------------------- -->
+<!-- ----------------------------------------------로그인 화면 시작----------------------------------------------------- -->
 	<c:if test="${sessionScope.ASessionId==null}">
 		
 			<div class="container">
@@ -234,6 +344,6 @@
 			</div>
 		</div>
 	</c:if>
-	
+<!-- ----------------------------------------------로그인 화면 시작----------------------------------------------------- -->
 </body>
 </html>
