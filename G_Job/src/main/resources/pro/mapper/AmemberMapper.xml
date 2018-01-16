@@ -4,6 +4,22 @@
 <mapper namespace="spring.mvc.pro.persistence.AmemberDAO">
 
 	<select id="loginPro" parameterType="java.util.Map" resultType="int">
-		SELECT COUNT(*) FROM g_member WHERE userid=#{strId} AND passwd=#{strPwd}
+		SELECT COUNT(*) FROM g_admin
+		<where>
+		 	<if test="strId != null">
+		 	 and admin_uid=#{strId} 
+		 	</if>
+		 	<if test="strPwd != null">
+		 	and admin_passwd=#{strPwd}
+		 	</if>
+		 </where>
 	</select>
+	
+	<!-- 관리자정보 업데이트 -->
+	<update id="updateAdmin" parameterType="java.util.Map">
+		<![CDATA[
+		update g_admin set  admin_uid =#{strUpdateId}, admin_passwd=#{strPwd}  where  admin_uid=#{strId}
+		
+		]]>
+	</update>
 </mapper>

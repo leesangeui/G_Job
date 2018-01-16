@@ -4,7 +4,103 @@
 <mapper namespace="spring.mvc.pro.persistence.CmemberDAO">
 
 	<select id="loginPro" parameterType="java.util.Map" resultType="int">
-		SELECT COUNT(*) FROM g_member WHERE userid=#{strId} AND passwd=#{strPwd}
+		<if test="m_type==1">
+			SELECT COUNT(*) FROM g_member WHERE userid=#{strId} AND passwd=#{strPwd}
+		</if>
+		<if test="m_type==2">
+			SELECT COUNT(*) FROM g_company WHERE userid=#{strId} AND passwd=#{strPwd}
+		</if>
+	</select>
+
+	<select id="FindId" parameterType="java.util.Map" resultType="String">
+		<if test="m_type==1">
+			SELECT userid FROM g_member WHERE uname=#{name} AND email=#{email}
+		</if>
+		<if test="m_type==2">
+			SELECT userid FROM g_company WHERE uname=#{name} AND email=#{email}
+		</if>
+	</select>
+
+	<select id="FindPw" parameterType="java.util.Map" resultType="String">
+		<if test="m_type==1">
+			SELECT passwd FROM g_member WHERE uname=#{name} AND email=#{email} AND password_que=#{password_que} AND password_chk=#{password_chk} 
+		</if>
+		<if test="m_type==2">
+			SELECT passwd FROM g_company WHERE uname=#{name} AND email=#{email} AND password_que=#{password_que} AND password_chk=#{password_chk}		
+		</if>
+	</select>
+
+	<!-- 회원약관 불러오기 -->
+	<select id="getSiteterm" resultType="spring.mvc.pro.vo.Site_basicVO">
+		select site_basic_agreement, site_basic_privacy FROM site_basic
+	</select>
+
+	<!-- 아이디 중복확인 -->
+	<select id="custConfirmId" resultType="int">
+		select count(*) from 
+		<if test="m_type==1"><!-- 개인회원 -->
+			g_member
+		</if>
+		<if test="m_type != 1"><!-- 기업회원 -->
+			g_company
+		</if>
+		where userid = #{uid}
+	</select>
+	
+	<!-- 회원가입 -->
+	<insert id="registMember" parameterType="spring.mvc.pro.vo.CmemberVO">		 
+		<if test="m_type == 1"><!-- 개인회원 -->
+			insert into g_member
+			values(g_member_seq.NEXTVAL,#{userid},#{passwd},#{password_que},#{password_chk},
+				#{jumin},#{uname},'',nvl(#{phone},''),#{hphone},#{birth},#{sex},#{use_mail},#{use_sms},
+				#{email},#{post},#{address1},nvl(#{address2},''),sysdate,sysdate,nvl(#{home},''),'',
+				'no','1','','','','no','','',1)
+		</if>
+		<if test="m_type != 1"><!-- 기업회원 -->
+			insert into g_company
+			values(g_company_seq.NEXTVAL, #{userid},#{passwd},#{password_que},#{password_chk},
+				#{jumin},#{uname},'',nvl(#{phone},''),#{hphone},#{birth},#{sex},#{use_mail},#{use_sms},
+				#{email},#{post},#{address1},nvl(#{address2},''),sysdate,sysdate,nvl(#{home},''),'',
+				'no','1','no','','',1,#{biz_no},'',#{biz_name},#{biz_recharger},#{biz_subject},
+				nvl(#{biz_fonundation},''),nvl(#{biz_men},0),nvl(#{biz_list},''),nvl(#{biz_form},''),#{biz_category},nvl(#{biz_capital},''),
+				nvl(#{biz_selling},''),nvl(#{biz_vision},''),nvl(#{biz_history},''),#{biz_phone},#{biz_fax},#{biz_post},
+				#{biz_address1},#{biz_address2},nvl(#{biz_email},''),nvl(#{biz_home},''),'','','','','','yes','')
+		</if>
+	</insert>
+
+	<!-- 01-13 이상의 수정 -->
+	<select id="viewMyPage" resultType="spring.mvc.pro.vo.CmemberVO">
+		<if test="m_type == 1"> <!-- 개인회원 -->
+			select * from g_member WHERE userid=#{userid}
+		</if>
+		<if test="m_type == 2"> <!-- 기업회원 -->
+			select * from g_company WHERE userid=#{userid}
+		</if>
+	</select>
+
+	<!-- 01-15 이상의 수정 -->
+	<update id="modifyMyPage" parameterType="java.util.Map"  >
+		<if test="m_type == 1"> <!-- 개인회원 -->
+		<if test="!passwd.equals('')">
+			update g_member set  passwd=#{passwd} , password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , p_chk=#{p_chk}, home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2} WHERE userid=#{userid}  
+		</if>
+		<if test="passwd.equals('')">
+			update g_member set password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , p_chk=#{p_chk}, home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2} WHERE userid=#{userid}
+		</if>
+		</if>
+		<if test="m_type == 2"> <!-- 기업회원 -->
+			
+		</if>
+	</update>
+
+	<!-- 01-15 이상의 수정 -->
+	<select id="CheckIdPw" resultType="int">
+		<if test="m_type == 1"> <!-- 개인회원 -->
+			select count(*) from g_member where userid=#{userid} and passwd=#{passwd}  
+		</if>
+		<if test="m_type == 2"> <!-- 기업회원 -->
+			select count(*) from g_company where userid=#{userid} and passwd=#{passwd}
+		</if>
 	</select>
 
 </mapper>

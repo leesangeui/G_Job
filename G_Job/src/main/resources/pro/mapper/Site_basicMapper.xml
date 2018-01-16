@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="spring.mvc.pro.persistence.Site_basicDAO">
+
+	<update id="updatePor" parameterType="java.util.Map">
+		update Site_basic 
+			<set>
+				<if test="mode.equals('title')"> site_basic_title =#{content} </if>
+				<if test="mode.equals('domain')"> site_basic_domain =#{content} </if>
+				<if test="mode.equals('name')"> site_basic_name =#{content} </if>
+				<if test="mode.equals('email')"> site_basic_email =#{content} </if>
+				<if test="mode.equals('call_center')"> site_basic_call_center =#{content} </if>
+				<if test="mode.equals('hphone')"> site_basic_hphone =#{content} </if>
+				<if test="mode.equals('favorite')"> site_basic_favorite =#{content} </if>
+				<if test="mode.equals('copyright')"> site_basic_copyright =#{content} </if>
+				<if test="mode.equals('mail_copyright')"> site_basic_mail_copyright =#{content} </if>
+				<if test="mode.equals('agreement')"> site_basic_agreement =#{content} </if>
+				<if test="mode.equals('privacy')"> site_basic_privacy =#{content} </if>
+				<if test="mode.equals('site_basic_privacy2')"> site_basic_privacy2 =#{content} </if>
+				<if test="mode.equals('company')"> site_basic_company =#{content} </if>
+				<if test="mode.equals('site_basic_align')"> site_basic_align =#{content} </if>
+				<if test="mode.equals('site_basic_guide')"> site_basic_guide =#{content} </if>
+				<if test="mode.equals('site_basic_search_cnt')"> site_basic_search_cnt =#{content} </if>
+				<if test="mode.equals('site_basic_search_type')"> site_basic_search_type =#{content} </if>
+				<if test="mode.equals('site_basic_search_type2')"> site_basic_search_type2 =#{content} </if>
+				<if test="mode.equals('site_basic_image_top')"> site_basic_image_top =#{content} </if>
+				<if test="mode.equals('site_basic_color_top')"> site_basic_color_top =#{content} </if>
+				<if test="mode.equals('site_basic_title')"> site_basic_title =#{content} </if>
+				<if test="mode.equals('site_basic_field')"> site_basic_field =#{content} </if>
+				<if test="mode.equals('site_basic_field2')"> site_basic_field2 =#{content} </if>
+				<if test="mode.equals('site_basic_field3')"> site_basic_field3 =#{content} </if>
+				<if test="mode.equals('resume')"> site_basic_resume =#{content} </if>
+				<if test="mode.equals('u_date')"> site_basic_u_date =#{content} </if>
+				<if test="mode.equals('d_date')"> site_basic_d_date =#{content} </if>
+				<if test="mode.equals('top_logo')"> site_basic_top_logo =#{content} </if>
+				<if test="mode.equals('footer_logo')"> site_basic_footer_logo =#{content} </if>
+				<if test="mode.equals('mail_top_logo')"> site_basic_mail_top_logo =#{content} </if>
+				<if test="mode.equals('mail_footer_logo')"> site_basic_mail_footer_logo =#{content} </if>
+				<if test="mode.equals('detail_logo')"> site_basic_detail_logo =#{content} </if>
+				<if test="mode.equals('site_basic_biz_no_copy')"> site_basic_biz_no_copy =#{content} </if>
+				<if test="mode.equals('site_basic_no_money')"> site_basic_no_money =#{content} </if>
+				<if test="mode.equals('site_basic_no_money_day')"> site_basic_no_money_day =#{content} </if>
+				<if test="mode.equals('site_basic_plus_date')"> site_basic_plus_date =#{content} </if>
+				<if test="mode.equals('site_basic_service_day')"> site_basic_service_day =#{content} </if>
+				<if test="mode.equals('today_chk')"> site_basic_today_chk =#{content} </if>
+				<if test="mode.equals('notice_num')"> site_basic_notice_num =#{content} </if>				
+			</set>	
+	</update>
+	
+	<select id="selectPro" resultType="spring.mvc.pro.vo.Site_basicVO">
+		<![CDATA[
+			select *  from Site_basic
+		]]>
+	</select>
+
+</mapper>

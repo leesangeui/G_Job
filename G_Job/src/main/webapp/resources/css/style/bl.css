@@ -1,0 +1,74 @@
+
+
+.leftmn_bl{background:url(../../all_image/bl/leftmn_08.gif) no-repeat;width:188px;height:32px;padding:3px 3px 3px 7px;cursor:pointer;}
+
+.tbox_bl {position:relative;*width:100%;height:29px;background:url(../../all_image/bl/bg_01.gif) no-repeat left;margin:3px 0px;}
+.tbox_bl div {position:relative;*width:100%;height:29px;background:url(../../all_image/bl/bg_02.gif) no-repeat right top;padding:7px 10px 0px 10px;}
+
+.btn.bt_bl,.btn.bt_bl a,.btn.bt_bl span,.btn.bt_bl button,.btn.bt_bl input { background-image:url("../../all_image/btn/bl.gif");color:#fff;}
+
+/* border:2px bg:화이트 */
+.bl07_01{background:url(../../all_image/box/box07_01.gif) no-repeat ;width:5px;height:5px}
+.bl07_02{background:url(../../all_image/box/box07_02.gif) repeat-x ;height:5px}
+.bl07_03{background:url(../../all_image/box/box07_03.gif) no-repeat ;width:5px;height:5px}
+.bl07_04{background:url(../../all_image/box/box07_04.gif) repeat-y;width:5px;}
+.bl07_05{background:url(../../all_image/box/box07_05.gif) repeat-y;width:5px;}
+.bl07_06{background:url(../../all_image/box/box07_06.gif) no-repeat ;width:5px;height:5px}
+.bl07_07{background:url(../../all_image/box/box07_07.gif) repeat-x ;height:5px}
+.bl07_08{background:url(../../all_image/box/box07_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 블루  bg:화이트 */
+.bl071_01{background:url(../../all_image/box/box071_01.gif) no-repeat ;width:5px;height:5px}
+.bl071_02{background:url(../../all_image/box/box071_02.gif) repeat-x ;height:5px}
+.bl071_03{background:url(../../all_image/box/box071_03.gif) no-repeat ;width:5px;height:5px}
+.bl071_04{background:url(../../all_image/box/box071_04.gif) repeat-y;width:5px;}
+.bl071_05{background:url(../../all_image/box/box071_05.gif) repeat-y;width:5px;}
+.bl071_06{background:url(../../all_image/box/box071_06.gif) no-repeat ;width:5px;height:5px}
+.bl071_07{background:url(../../all_image/box/box071_07.gif) repeat-x ;height:5px}
+.bl071_08{background:url(../../all_image/box/box071_08.gif) no-repeat ;width:5px;height:5px}
+
+/* border:1px 블루 bg:블루 */
+.bl072_01{background:url(../../all_image/box/box0717_01.gif) no-repeat ;width:5px;height:5px}
+.bl072_02{background:url(../../all_image/box/box0717_02.gif) repeat-x ;height:5px}
+.bl072_03{background:url(../../all_image/box/box0717_03.gif) no-repeat ;width:5px;height:5px}
+.bl072_04{background:url(../../all_image/box/box0717_04.gif) repeat-y;width:5px;}
+.bl072_05{background:url(../../all_image/box/box0717_05.gif) repeat-y;width:5px;}
+.bl072_06{background:url(../../all_image/box/box0717_06.gif) no-repeat ;width:5px;height:5px}
+.bl072_07{background:url(../../all_image/box/box0717_07.gif) repeat-x ;height:5px}
+.bl072_08{background:url(../../all_image/box/box0717_08.gif) no-repeat ;width:5px;height:5px}
+
+/* 라운딩 */
+.bl073_02,.bl073_04,.bl073_05,.bl073_07,.bl073{background-color:#dfebf7;}
+.bl073_01{background:url(../../all_image/box/box077_01.gif) no-repeat;width:5px;height:5px}
+.bl073_03{background:url(../../all_image/box/box077_02.gif) no-repeat;width:5px;height:5px}
+.bl073_06{background:url(../../all_image/box/box077_03.gif) no-repeat;width:5px;height:5px}
+.bl073_08{background:url(../../all_image/box/box077_04.gif) no-repeat;width:5px;height:5px}
+
+
+.dbl01_01{background:url(../../all_image/box/ddbl01_01.gif) no-repeat;width:5;height:5}
+.dbl01_02{background:url(../../all_image/box/ddbl01_02.gif) repeat-x;height:5}
+.dbl01_03{background:url(../../all_image/box/ddbl01_03.gif) no-repeat;width:5;height:5}
+.dbl01_04{background:url(../../all_image/box/ddbl01_04.gif) repeat-y;width:5;}
+.dbl01_05{background:url(../../all_image/box/ddbl01_05.gif) repeat-y;width:5;}
+.dbl01_06{background:url(../../all_image/box/ddbl01_06.gif) no-repeat;width:5;height:5}
+.dbl01_07{background:url(../../all_image/box/ddbl01_07.gif) repeat-x;height:5}
+.dbl01_08{background:url(../../all_image/box/ddbl01_08.gif) no-repeat;width:5;height:5}
+
+.dbl02_01{background:url(../../all_image/box/ddbl02_01.gif) no-repeat;width:5;height:5}
+.dbl02_02{background:url(../../all_image/box/ddbl02_02.gif) repeat-x;height:5}
+.dbl02_03{background:url(../../all_image/box/ddbl02_03.gif) no-repeat;width:5;height:5}
+.dbl02_04{background:url(../../all_image/box/ddbl02_04.gif) repeat-y;width:5;}
+.dbl02_05{background:url(../../all_image/box/ddbl02_05.gif) repeat-y;width:5;}
+.dbl02_06{background:url(../../all_image/box/ddbl02_06.gif) no-repeat;width:5;height:5}
+.dbl02_07{background:url(../../all_image/box/ddbl02_07.gif) repeat-x;height:5}
+.dbl02_08{background:url(../../all_image/box/ddbl02_08.gif) no-repeat;width:5;height:5}
+
+.dbl03{background:}
+.dbl03_01{background:url(../../all_image/box/ddbl03_01.gif) no-repeat;width:5;height:5}
+.dbl03_02{background:url(../../all_image/box/ddbl03_02.gif) repeat-x;height:5}
+.dbl03_03{background:url(../../all_image/box/ddbl03_03.gif) no-repeat;width:5;height:5}
+.dbl03_04{background:url(../../all_image/box/ddbl03_04.gif) repeat-y;width:5;}
+.dbl03_05{background:url(../../all_image/box/ddbl03_05.gif) repeat-y;width:5;}
+.dbl03_06{background:url(../../all_image/box/ddbl03_06.gif) no-repeat;width:5;height:5}
+.dbl03_07{background:url(../../all_image/box/ddbl03_07.gif) repeat-x;height:5}
+.dbl03_08{background:url(../../all_image/box/ddbl03_08.gif) no-repeat;width:5;height:5}
