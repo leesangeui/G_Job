@@ -404,18 +404,58 @@ public class CmemberServiceImpl implements CmemberService {
 				
 				String phone = phone1+"-"+phone2+"-"+phone3;
 				
-				String new_post = req.getParameter("new_post1");
-				String new_address1 = req.getParameter("new_address1");
-				String new_address2 = req.getParameter("new_address2");
+				String post = req.getParameter("post");
+				String address1 = req.getParameter("address1");
+				String address2 = req.getParameter("address2");
 				
 				map.put("phone", phone);
-				map.put("post", new_post);
-				map.put("address1", new_address1);
-				map.put("address2", new_address2);
+				map.put("post", post);
+				map.put("address1", address1);
+				map.put("address2", address2);
 				System.out.println("a6");
 				
+				// 기업정보
+				if(m_type==2) {
+				String biz_recharger = req.getParameter("biz_recharger");
+				String biz_name = req.getParameter("biz_name");
+				String biz_no = req.getParameter("biz_no1") + "-" + req.getParameter("biz_no1") + "-" + req.getParameter("biz_no1");
+				String biz_category = req.getParameter("biz_category");
+				String biz_list = req.getParameter("biz_list");
+				String biz_form = req.getParameter("biz_form");
+				String biz_subject = req.getParameter("biz_subject");
+				String biz_phone = req.getParameter("biz_phone1")+"-"+req.getParameter("biz_phone2")+"-"+req.getParameter("biz_phone3");
+				String biz_fax = req.getParameter("biz_fax1")+"-"+req.getParameter("biz_fax2")+"-"+req.getParameter("biz_fax3");
+				String biz_email = req.getParameter("biz_email")+"@"+req.getParameter("biz_email_tail");
+				String biz_home	= req.getParameter("biz_home");
+				String biz_post = req.getParameter("biz_post");
+				String biz_address1 = req.getParameter("biz_address1");
+				String biz_address2 = req.getParameter("biz_address2");
+				String biz_fonundation = req.getParameter("biz_fonundation");
+				int biz_men = Integer.parseInt(req.getParameter("biz_men"));
+				String biz_capital = req.getParameter("biz_capital");
+				String biz_selling = req.getParameter("biz_selling");
+				// * 회사로고, 회사사진, 개요/비전 추후 수정
 				
+				map.put("biz_recharger",biz_recharger);
+				map.put("biz_name", biz_name);
+				map.put("biz_no", biz_no);
+				map.put("biz_category", biz_category);
+				map.put("biz_list", biz_list);
+				map.put("biz_form", biz_form);
+				map.put("biz_subject", biz_subject);
+				map.put("biz_phone", biz_phone);
+				map.put("biz_fax", biz_fax);
+				map.put("biz_email", biz_email);
+				map.put("biz_home", biz_home);
+				map.put("biz_post", biz_post);
+				map.put("biz_address1", biz_address1);
+				map.put("biz_address2", biz_address2);
+				map.put("biz_fonundation", biz_fonundation);
+				map.put("biz_men", biz_men);
+				map.put("biz_capital", biz_capital);
+				map.put("biz_selling", biz_selling);
 				
+				}
 				//수정처리
 				CmemberDAO.modifyMyPage(map);
 				//업데이트 된 후 개인정보 뷰 하기 
@@ -436,5 +476,50 @@ public class CmemberServiceImpl implements CmemberService {
 			}
 				model.addAttribute("m_type",m_type);
 		}
+		
+		
+	   //회원탈퇴정보확인 1.16 이정훈
+	   @Override
+	   public void deleteView(HttpServletRequest req, Model model) {
+	      int m_type = Integer.parseInt(req.getParameter("m_type"));
+	      String mode = req.getParameter("mode");
+	      String userid = "";
+	      if(m_type ==1) {
+	         userid = (String) req.getSession().getAttribute("ISessionId");
+	      }else {
+	         userid = (String) req.getSession().getAttribute("CSessionId");
+	      }
+	      
+	      Map<String , Object> map = new HashMap<String,Object>();
+	      map.put("m_type", m_type);
+	      map.put("userid", userid);
+	      
+	      CmemberVO vo = new CmemberVO();
+	      
+	      vo = CmemberDAO.deleteMemView(map);
+
+	      model.addAttribute("vo",vo);
+	      model.addAttribute("m_type",m_type);
+	      model.addAttribute("mode",mode);            
+	   }
+
+	   
+	   //회원탈퇴처리 1.16
+	   @Override
+	   public void deleteInfo(HttpServletRequest req, Model model) {
+	      String userid = req.getParameter("userid");
+	      int m_type = Integer.parseInt(req.getParameter("m_type"));
+	      String passwd = req.getParameter("passwd");
+	      
+	      Map<String, Object> map = new HashMap<String, Object>();
+	      map.put("m_type", m_type);
+	      map.put("userid", userid);
+	      map.put("passwd", passwd);
+	      
+	      int cnt = CmemberDAO.deleteMemInfo(map);
+	      req.getSession().setAttribute("ISessionId", null);
+	      req.getSession().setAttribute("CSessionId", null);
+	      model.addAttribute("cnt",cnt);      
+	   }
 
 }

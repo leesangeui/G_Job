@@ -101,7 +101,7 @@ public class CmemberDAOImpl implements CmemberDAO {
 		return vo;
 	}
 
-	// 개인정보 수정 01-15 이상의 수정
+	// 개인/기업정보 수정 01-15 이상의 수정
 	@Override
 	public void modifyMyPage(Map<String, Object> map) {
 		CmemberVO vo = null;
@@ -121,4 +121,31 @@ public class CmemberDAOImpl implements CmemberDAO {
 		cnt=dao.CheckIdPw(map);
 		return cnt;
 	}
+	
+	// 회원탈퇴정보 1.16 이정훈
+    @Override
+    public CmemberVO deleteMemView(Map<String, Object> map) {
+      
+       CmemberVO vo = new CmemberVO();
+      
+       CmemberDAO dao = sqlSession.getMapper(CmemberDAO.class);
+       vo = dao.deleteMemView(map);  
+            
+       return vo;
+    }
+
+
+    // 회원탈퇴 처리 1.16
+    @Override
+    public int deleteMemInfo(Map<String, Object> map) {
+       int cnt = 0;
+       
+       CmemberDAO dao = sqlSession.getMapper(CmemberDAO.class);      
+       int chk = dao.CheckIdPw(map);      
+      
+       if(chk == 1) {
+          cnt = dao.deleteMemInfo(map);
+       }
+       return cnt;
+    }
 }

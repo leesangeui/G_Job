@@ -7,117 +7,8 @@
 <table width="950" border="0" cellspacing="0" cellpadding="0" align="center">
    <tr valign="top">   
    <!-- 컨텐츠 왼쪽 사이드 메뉴 시작 -->   
-   <td width="200">
-   <table border="0" cellspacing="0" cellpadding="0">
-       <tr><td>   
-      <!--로그인 후-->
-      <!-- 로그인 테이블 호출 -->
-      <%@ include file="../login/login.jsp"%>
-      <!-- 로그인 테이블 종료 -->
-      </td></tr>
-       <tr><td class="pt7">
-          <img src="${allimage}bl/leftmn_01.gif">
-       </td></tr>
-      <tr><td background="${allimage}bl/leftmn_06.gif" style="padding:0 6">
-      <!-- 왼쪽사이드 메뉴 -->
-         <table style="width:100%; border: 0px;"cellspacing="0" cellpadding="0">
-            <tr><td style="background:url('${allimage}bl/leftmn_02.gif') no-repeat top; padding:11 5 14 5; height:60;" valign="top">
-               <img src="${allimage}bl/tlt_my.gif">
-            </td></tr>
-            <tr><td style="padding:0 6;" background="${allimage}bl/leftmn_04.gif" valign="top">
-                <table style="width:95%; border: 0;" cellspacing="0" cellpadding="5" align="center">                  
-                  <!-- 마이페이지 -->                    
-                    <tr><td class="ln_b">
-                       <img src="${allimage}basic/bul_11.gif" align="absmiddle"> 
-                       <b class="bk">회원정보관리</b>
-                    </td></tr>
-                    <tr><td class="fon11 lbg h16">
-                       <a href="../job_user/Minfomation?m_type=2">- 기업정보 수정</a><br>
-                       <a href="./pay.html">- 결제내역 조회</a><br>
-                       <a href="./tax.html">- 세금계산서 발행신청</a>
-                    </td></tr>
-                    <tr><td class="ln_b">
-                       <img src="${allimage}basic/bul_11.gif" align="absmiddle"> 
-                       <b class="bk">채용관리</b>
-                    </td></tr>
-                    <tr><td class="fon11 lbg h16">
-                       <a href="./employ.html">- 채용정보등록</a><br>
-                       <a href="./employ_list.html">- 진행중인 채용정보</a><br>
-                       <a href="./employ_list.html?mode=end">- 마감된 채용정보</a>
-                    </td></tr>  
-                   <tr><td class="ln_b">
-                      <img src="${allimage}basic/bul_11.gif" align="absmiddle"> 
-                      <b class="bk">인재정보검색</b>
-                   </td></tr>
-                   <tr><td class="fon11 lbg h16">
-<!-- DB에서 불러오기 필요함!!!!!! -->
-                      <div class="wbg fon11 h16 mb3 ln_box" style="padding:5" align="center">
-                         <b>= 인재검색 서칭서비스 =</b><br>
-                         <font class="num11">
-                            <b>[</b> 
-                            <c:if test="${vo.resume_search == null}">
-                               서비스 신청 안함
-                            </c:if>
-                            <c:if test="${vo.resume_search != null}">
-                               ~${vo.resume_search}
-                            </c:if>        
-                            <b>]</b>
-                         </font>
-                          <div style="margin:3 0 5">
-                             <c:if test="${vo.resume_search == null}">
-                             <!-- 서비스 신청 -->
-                                <a href="/pay/index.html?mode=job#msearch7">
-                                   <img src="${allimage}btn/btn23_svsup.gif">
-                               </a>
-                             </c:if>
-                             <c:if test="${vo.resume_search != null}">
-                             <!-- 서비스 연장 -->
-                               <a href="/pay/index.html?mode=job#msearch7">
-                                   <img src="${allimage}btn/btn19_renew.gif">
-                               </a>
-                            </c:if>             
-                          </div>
-                         <!--입급확인중인 서비스 : <b class="org">10건</b>-->
-                      </div> 
-<!-- DB에서 불러오기 필요함 끝 !!!!!! -->   
-                      <div class="fon11 mt3">
-                         <a href="/pay/index.html?mode=job#msearch7">- 인재검색 서칭서비스 신청</a><br>
-                          <a href="./r_scrap.html">- 인재정보스크랩</a><br>
-                          <a href="./r_request.html">- 입사지원 요청관리</a><br>
-                          <a href="./r_interview.html">- 면접제의 요청관리</a><br>
-                          <a href="./r_on_request.html">- 입사지원자관리</a>
-                       </div>
-                     </td></tr>
-                     <tr><td class="ln_b">
-                        <img src="${allimage}basic/bul_11.gif" align="absmiddle"> 
-                        <b class="bk">맞춤인재정보</b>
-                     </td></tr>  
-                     <tr><td class="fon11 lbg h16">
-                        <a href="./r_order.html">- 맞춤인재정보</a><br>
-                        <a href="./control.html">- My 서비스설정</a>
-                     </td></tr>                    
-               </table>
-             </td></tr>
-             <tr><td>
-                <img src="${allimage}bl/leftmn_05.gif">
-             </td></tr>
-             <!-- 마이페이지 끝 -->                   
-             <!-- 고객센터 전화번호/1대1 맞춤 상담 -->          
-             <tr><td class="pt7">
-                <%@ include file="./callcenterInfo.jsp"%>
-             </td></tr>
-             <!-- 고객센터 전화번호/1대1 맞춤 상담 끝 -->       
-         </table>
-      <!-- 왼쪽사이드 메뉴 끝 -->
-      </td></tr>
-      
-      <!-- 메뉴 --> 
-      <tr><td valign="bottom">
-         <img src="${allimage}bl/leftmn_07.gif" width="200" height="6">
-      </td></tr>
-   </table>
-   </td>
-
+   <%@ include file="./CmypageMenu.jsp" %>
+   <!-- 컨텐츠 왼쪽 사이드 메뉴 종료 -->
    <!-- 기업정보 수정 -->   
    <td class=pL10><script src='${project}easy_editor/easyEditor.js'></script>
    <script>
@@ -139,6 +30,20 @@
          //$('email_tail').style.display='';
          $('biz_email_tail').value = '';
       }
+   // 01-16 이상의 수정
+   	
+   
+   }
+   
+   function pwd_chk(){
+   		
+	   if(document.regist_form.passwd.value || document.regist_form.passwdre.value){
+		   if(document.regist_form.passwd.value != document.regist_form.passwdre.value){
+			   alert("입력하신 새 비밀번호와 재입력이 일치하지 않습니다.");
+			   return false;
+		   }
+	   }
+
    }
    
    function chk(num){
@@ -168,7 +73,7 @@
    <script src='${project}easy_editor/easyEditor.js'></script>
    <script src="${js}join.js"></script>
       <table width="740" border="0" cellspacing="0" cellpadding="0">
-      <form name="regist_form__" id="regist_form__"  enctype="multipart/form-data" id="regist_form__" method="post" action = "/member/regist.php">
+      <form name="regist_form" id="regist_form__"  enctype="multipart/form-data" id="regist_form__" method="post" action = "../job_user/ModifyInfo" onsubmit="return pwd_chk();">
          <input type="hidden" name="mode" value="update">
          <input type="hidden" name="uid" value="${vo.userid}">
          <input type="hidden" name="is_admin" value="/my/modify.html">
@@ -229,7 +134,7 @@
                         <img src="${allimage}bl/bul_06.gif" width="7" align="absmiddle" hspace="5">비밀번호
                      </td>
                      <td class="ln_b pL7">
-                        <input type="password" style="ime-mode:disabled;width:30%" class=text name="passwd_old">
+                        <input type="password" style="ime-mode:disabled;width:30%" class=text name="passwd_old" required>
                      </td>
                   </tr>
                   <tr height="30">
@@ -256,12 +161,12 @@
                         <select class="selBox" hname="비밀번호 재발급질문" required name="password_que">
                            <option value=''>= 질문을 선택해주세요 =</option>
                            <option value='netfu_74718_63948' >나의 좌우명은?</option>
-                           <option value='netfu_39070_98166' >가장 생각나는 친구 이름은?</option>
+                           <option value='netfu_39070_98166' selected>가장 생각나는 친구 이름은?</option>
                            <option value='netfu_96772_72511' >기억하고 싶은 날짜는? (예:2000/10/10)</option>
                            <option value='netfu_41622_51289' >다시 태어나면 되고 싶은 것은?</option>
                            <option value='netfu_74017_93284' >가장 기억에 남는 장소는?</option>
                            <option value='netfu_82179_90179' >나의 보물 제1호는?</option>
-                           <option value='netfu_70241_34554' selected>가장 기억에 남는 선생님 성함은?</option>
+                           <option value='netfu_70241_34554' >가장 기억에 남는 선생님 성함은?</option>
                            <option value='netfu_41203_18962' >받았던 선물 중 가장 기억에 남는 선물은?</option>
                            <option value='netfu_10655_50881' >인상 깊게 읽은 책 이름은?</option>
                            <option value='netfu_89086_83700' >내가 존경하는 인물은?</option>
@@ -829,7 +734,7 @@
             <tr>
                <td class="pt15 pb20" align="center">
                   <a href="javascript:go_regist_a();">
-                     <img src="${allimage}btn/ok.gif" class="vm png grf_bl">
+                     <input type="image" src="${allimage}btn/ok.gif" class="vm png grf_bl" style="cursor:pointer; width:66px; height:35px;">
                   </a>&nbsp; 
                   <a href="javascript:history.go(-1);">
                      <img src="${allimage}btn/cancel.gif" class="vm">

@@ -180,4 +180,21 @@ public class CustController {
  		cmemberService.regist(req, model);
  		return "Cust/member/regist";
  	}
+ 	
+ 	 //È¸¿øÅ»Åð - ÀÌÁ¤ÈÆ 01.16
+    @RequestMapping(value="Cust/delete")
+    public String delete(HttpServletRequest req, Model model) {
+       System.out.println("Cust/delete");
+             
+       cmemberService.deleteView(req, model);   
+       return "Cust/member/delete";
+    }
+    //È¸¿øÅ»Åð - ÀÌÁ¤ÈÆ 01.16
+    @RequestMapping(value="Cust/out")
+    public String out(HttpServletRequest req, Model model) {
+       System.out.println("out");
+       
+       cmemberService.deleteInfo(req, model);      
+       return "Cust/member/out";
+    }
 }

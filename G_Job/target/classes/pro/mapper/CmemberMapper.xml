@@ -81,15 +81,20 @@
 	<!-- 01-15 이상의 수정 -->
 	<update id="modifyMyPage" parameterType="java.util.Map"  >
 		<if test="m_type == 1"> <!-- 개인회원 -->
-		<if test="!passwd.equals('')">
-			update g_member set  passwd=#{passwd} , password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , p_chk=#{p_chk}, home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2} WHERE userid=#{userid}  
-		</if>
-		<if test="passwd.equals('')">
-			update g_member set password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , p_chk=#{p_chk}, home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2} WHERE userid=#{userid}
-		</if>
+			<if test="!passwd.equals('')">
+				update g_member set  passwd=#{passwd} , password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , p_chk=#{p_chk}, home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2} WHERE userid=#{userid}  
+			</if>
+			<if test="passwd.equals('')">
+				update g_member set password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , p_chk=#{p_chk}, home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2} WHERE userid=#{userid}
+			</if>
 		</if>
 		<if test="m_type == 2"> <!-- 기업회원 -->
-			
+			<if test="!passwd.equals('')">
+				update g_company set  passwd=#{passwd} , password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2}, biz_recharger=#{biz_recharger}, biz_name=#{biz_name}, biz_no=#{biz_no}, biz_category=#{biz_category}, biz_list=#{biz_list}, biz_form=#{biz_form}, biz_subject=#{biz_subject}, biz_phone=#{biz_phone} , biz_fax=#{biz_fax} , biz_email=#{biz_email}, biz_home=#{biz_home} , biz_post=#{biz_post}, biz_address1=#{biz_address1}, biz_address2=#{biz_address2}, biz_fonundation=#{biz_fonundation}, biz_men=#{biz_men}, biz_capital=#{biz_capital}, biz_selling=#{biz_selling}    WHERE userid=#{userid}  
+			</if>
+			<if test="passwd.equals('')">
+				update g_company set password_que=#{password_que}, password_chk=#{password_chk} , jumin=#{jumin}, sex=#{sex} , home=#{home}, email=#{email} , use_mail=#{use_mail}, hphone=#{hphone}, use_sms=#{use_sms}, phone=#{phone}, post=#{post}, address1=#{address1}, address2=#{address2}, biz_recharger=#{biz_recharger}, biz_name=#{biz_name}, biz_no=#{biz_no}, biz_category=#{biz_category}, biz_list=#{biz_list}, biz_form=#{biz_form}, biz_subject=#{biz_subject}, biz_phone=#{biz_phone} , biz_fax=#{biz_fax} , biz_email=#{biz_email}, biz_home=#{biz_home} , biz_post=#{biz_post}, biz_address1=#{biz_address1}, biz_address2=#{biz_address2}, biz_fonundation=#{biz_fonundation}, biz_men=#{biz_men}, biz_capital=#{biz_capital}, biz_selling=#{biz_selling} WHERE userid=#{userid}
+			</if>
 		</if>
 	</update>
 
@@ -102,5 +107,25 @@
 			select count(*) from g_company where userid=#{userid} and passwd=#{passwd}
 		</if>
 	</select>
+
+	 <!-- 회원탈퇴정보 1.16 이정훈 -->
+   <select id="deleteMemView" resultType="spring.mvc.pro.vo.CmemberVO">
+      <if test="m_type == 1">
+         select userid, uname from g_member where userid=#{userid} 
+      </if>
+      <if test="m_type == 2">
+         select userid, uname from g_company where userid=#{userid} 
+      </if>      
+   </select>
+   
+   <!-- 회원탈퇴 1.16 -->
+   <update id="deleteMemInfo" parameterType="java.util.Map">
+      <if test="m_type == 1">
+         update g_member set typical = 2 where userid=#{userid}
+      </if>
+      <if test="m_type == 2">
+         update g_company set typical = 2 where userid=#{userid}
+      </if>
+   </update>
 
 </mapper>

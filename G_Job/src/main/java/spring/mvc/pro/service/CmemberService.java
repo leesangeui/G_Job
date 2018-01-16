@@ -29,4 +29,10 @@ public interface CmemberService {
 	
 	//마이페이지 01-15 이상의 수정
 	public void modifyInfo(HttpServletRequest req, Model model);
+	
+   //회원탈퇴정보확인 1.16 이정훈
+   public void deleteView(HttpServletRequest req, Model model);
+   
+   //회원탈퇴 처리 1.16
+   public void deleteInfo(HttpServletRequest req, Model model);
 }

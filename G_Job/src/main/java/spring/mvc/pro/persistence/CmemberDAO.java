@@ -35,4 +35,9 @@ public interface CmemberDAO {
 	// 아이디 비밀번호 체크 01-15 이상의 수정
 	public int CheckIdPw(Map<String,Object> map);
 	
+    // 회원탈퇴정보 1.16 이정훈
+    public CmemberVO deleteMemView(Map<String,Object> map);
+   
+    // 회원탈퇴처리 1.16
+    public int deleteMemInfo(Map<String, Object> map);
 }

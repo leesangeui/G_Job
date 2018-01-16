@@ -475,10 +475,12 @@ public class CmemberVO {
    }
    public void setBiz_fax(String biz_fax) {
       this.biz_fax = biz_fax;
+      if(!biz_fax.equals("")) {
       String[] bbiz_fax = biz_fax.split("-");
       this.biz_fax1 = bbiz_fax[0];
       this.biz_fax2 = bbiz_fax[1];
       this.biz_fax3 = bbiz_fax[2];
+      }
    }
    public String getBiz_post() {
       return biz_post;
@@ -503,9 +505,11 @@ public class CmemberVO {
    }
    public void setBiz_email(String biz_email) {
       this.biz_email = biz_email;
+      if(!biz_email.equals("")) {
       String[] bbiz_email = biz_email.split("@");
       this.biz_email1 = bbiz_email[0];
       this.biz_email2 = bbiz_email[1];
+      }
    }
    public String getBiz_home() {
       return biz_home;
